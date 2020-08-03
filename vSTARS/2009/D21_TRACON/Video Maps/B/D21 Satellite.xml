@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VideoMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShortName="SAT" LongName="D21 Satellite" STARSGroup="" STARSTDMOnly="false" VisibleInList="true">
+  <Colors>
+    <NamedColor Red="80" Green="80" Blue="40" Name="R80G80B40" />
+  </Colors>
+  <Elements>
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="0" StartLat="0" EndLon="0" EndLat="0" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.4558639" StartLat="42.2893486" EndLon="-83.3577422" EndLat="42.3580056" Style="Solid" Thickness="0" />
+  </Elements>
+</VideoMap>
