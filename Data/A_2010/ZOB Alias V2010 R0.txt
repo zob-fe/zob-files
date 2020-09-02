@@ -3,7 +3,7 @@ Created by Ryan Geckler
 Updated by Josh Burr, Leszek Kwasniowski, Eton Wallace, Michael Smith
 
 <VERSION= 2010>
-<LAST UPDATE= 08/09/2020>
+<LAST UPDATE= 08/29/2020>
 
 ====================================================================================
 CHANGELOG:
@@ -63,6 +63,11 @@ VERSION 2006
 - Small modifications to PDCs to allow for use in one commands
 - Added commands for vERAM
 - minor cleanup
+
+VERSION 2010
+- Added .[arrival] and .[departure] commands
+- Added .nav[vor] commands
+- Added .tracon commands
 
 ====================================================================================
 GENERIC CLEARANCE:
@@ -712,6 +717,62 @@ NAVAIDS:
 .NAVTORONTO .MSG ZOB_ISR *** YYZ || 112.15 || TORONTO || DME VOR
 .NAVZANESVILLE .MSG ZOB_ISR *** ZZV || 114.95 || ZANESVILLE || HIGH VOR
 
+====================================================================================
+PROCEDURES:
+====================================================================================
+
+.TRYBE .openurl https://aeronav.faa.gov/d-tpp/2009/00084trybe.pdf#nameddest=(CLE)
+.BRWNZ .openurl http://aeronav.faa.gov/d-tpp/2009/00084brwnz.pdf#nameddest=(CLE)
+.ROKNN .openurl http://aeronav.faa.gov/d-tpp/2009/00084roknn.pdf#nameddest=(CLE)
+.ROLLN .openurl http://aeronav.faa.gov/d-tpp/2009/00084rolln.pdf#nameddest=(CLE)
+.BONZZ .openurl http://aeronav.faa.gov/d-tpp/2009/00119bonzz.pdf#nameddest=(DTW)
+.CRAKN .openurl http://aeronav.faa.gov/d-tpp/2009/00119crakn.pdf#nameddest=(DTW)
+.FERRL .openurl http://aeronav.faa.gov/d-tpp/2009/00119ferrl.pdf#nameddest=(DTW)
+.GRAYT .openurl http://aeronav.faa.gov/d-tpp/2009/00119grayt.pdf#nameddest=(DTW)
+.HANBL .openurl http://aeronav.faa.gov/d-tpp/2009/00119hanbl.pdf#nameddest=(DTW)
+.HAYLL .openurl http://aeronav.faa.gov/d-tpp/2009/00119hayll.pdf#nameddest=(DTW)
+.HTROD .openurl http://aeronav.faa.gov/d-tpp/2009/00119htrod.pdf#nameddest=(DTW)
+.KKISS .openurl http://aeronav.faa.gov/d-tpp/2009/00119kkiss.pdf#nameddest=(DTW)
+.KYLNK .openurl http://aeronav.faa.gov/d-tpp/2009/00119klynk.pdf#nameddest=(DTW)
+.LAYKS .openurl http://aeronav.faa.gov/d-tpp/2009/00119layks.pdf#nameddest=(DTW)
+.RYCTY .openurl http://aeronav.faa.gov/d-tpp/2009/00119rkcty.pdf#nameddest=(DTW)
+.TPGUN .openurl http://aeronav.faa.gov/d-tpp/2009/00119tpgun.pdf#nameddest=(DTW)
+.VCTRZ .openurl http://aeronav.faa.gov/d-tpp/2009/00119vctrz.pdf#nameddest=(DTW)
+.CUUGR .openurl http://aeronav.faa.gov/d-tpp/2009/00119cuugr.pdf#nameddest=(DTW)
+.LECTR .openurl http://aeronav.faa.gov/d-tpp/2009/00119lectr.pdf#nameddest=(DTW)
+.WNGNT .openurl http://aeronav.faa.gov/d-tpp/2009/00119wngnt.pdf#nameddest=(DTW)
+.FOREY .openurl http://aeronav.faa.gov/d-tpp/2009/05052forey.pdf#nameddest=(DET)
+.RRALF .openurl http://aeronav.faa.gov/d-tpp/2009/05052rralf.pdf#nameddest=(DET)
+.PETTE .openurl http://aeronav.faa.gov/d-tpp/2009/05052pette.pdf#nameddest=(DET)
+.DEMME .openurl http://aeronav.faa.gov/d-tpp/2009/00570demme.pdf#nameddest=(PIT)
+.FEWGA .openurl http://aeronav.faa.gov/d-tpp/2009/00570fewga.pdf#nameddest=(PIT)
+.HAYNZ .openurl http://aeronav.faa.gov/d-tpp/2009/00570haynz.pdf#nameddest=(PIT)
+.JESEY .openurl http://aeronav.faa.gov/d-tpp/2009/00570jesey.pdf#nameddest=(PIT)
+.CAVVS .openurl http://aeronav.faa.gov/d-tpp/2009/00084cavvs.pdf#nameddest=(CLE)
+.GTLKE .openurl http://aeronav.faa.gov/d-tpp/2009/00084gtlke.pdf#nameddest=(CLE)
+.KKIDS .openurl http://aeronav.faa.gov/d-tpp/2009/00084kkids.pdf#nameddest=(CLE)
+.PFLYD .openurl http://aeronav.faa.gov/d-tpp/2009/00084pflyd.pdf#nameddest=(CLE)
+.ZAAPA .openurl http://aeronav.faa.gov/d-tpp/2009/00084zaapa.pdf#nameddest=(CLE)
+.AHMET .openurl http://aeronav.faa.gov/d-tpp/2009/05370ahmet.pdf#nameddest=(BKL)
+.MYCAR .openurl http://aeronav.faa.gov/d-tpp/2009/05370mycar.pdf#nameddest=(BKL)
+.BARII .openurl http://aeronav.faa.gov/d-tpp/2009/00119barii.pdf#nameddest=(DTW)
+.CCOBB .openurl http://aeronav.faa.gov/d-tpp/2009/00119ccobb.pdf#nameddest=(DTW)
+.CLVIN .openurl http://aeronav.faa.gov/d-tpp/2009/00119clvin.pdf#nameddest=(DTW)
+.HHOWE .openurl http://aeronav.faa.gov/d-tpp/2009/00119hhowe.pdf#nameddest=(DTW)
+.KAYLN .openurl http://aeronav.faa.gov/d-tpp/2009/00119kayln.pdf#nameddest=(DTW)
+.LIDDS .openurl http://aeronav.faa.gov/d-tpp/2009/00119lidds.pdf#nameddest=(DTW)
+.METRO .openurl http://aeronav.faa.gov/d-tpp/2009/00119metro.pdf#nameddest=(DTW)
+.MIGGY .openurl http://aeronav.faa.gov/d-tpp/2009/00119miggy.pdf#nameddest=(DTW)
+.PAVYL .openurl http://aeronav.faa.gov/d-tpp/2009/00119pavyl.pdf#nameddest=(DTW)
+.SNDRS .openurl http://aeronav.faa.gov/d-tpp/2009/00119sndrs.pdf#nameddest=(DTW)
+.TRMML .openurl http://aeronav.faa.gov/d-tpp/2009/00119trmml.pdf#nameddest=(DTW)
+.ZETTR .openurl http://aeronav.faa.gov/d-tpp/2009/00119zettr.pdf#nameddest=(DTW)
+.XEROX .openurl http://aeronav.faa.gov/d-tpp/2009/00351xerox.pdf#nameddest=(ROC)
+.PIT .openurl http://aeronav.faa.gov/d-tpp/2009/00570pittsburgh.pdf#nameddest=(PIT)
+.AGC .openurl http://aeronav.faa.gov/d-tpp/2009/00326allegheny.pdf#nameddest=(AGC)
+.BUF .openurl http://aeronav.faa.gov/d-tpp/2009/00065buffalo.pdf#nameddest=(BUF)
+
+
 
 ====================================================================================
 FLOW:
@@ -748,6 +809,8 @@ FLOW:
 .traconbufwgps .FD - RWY 23 GPS|- RWY 5 GPS
 .traconbufegps .FD - RWY 5 GPS|- RWY 23 GPS
 
+.traconeri .FD - ERI AIRSPACE
+
 ====PIT====
 .traconpit .FD - RWY 28
 .traconpitw .FD - RWY 28|- RWY 10
@@ -758,9 +821,6 @@ FLOW:
 .traconroc .FD - RWY 22
 .traconrocw .FD - RWY 22|- RWY 4
 .traconroce .FD - RWY 4|- RWY 22
-
-====ERI====
-.traconeri .FD - ERI AIRSPACE
 
 ====TOL====
 .tracontol .FD - TOL AIRSPACE
