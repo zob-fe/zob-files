@@ -348,6 +348,8 @@ MISC:
 .rsct .reloadsector
 .ras .reloadaliases
 
+.cme .contactme
+
 ====================================================================================
 PIT CROSSINGS:
 ====================================================================================
@@ -385,22 +387,9 @@ LOA CROSSINGS:
 .psblga Cross PSB at and maintain FL290.
 
 ====================================================================================
-OTHER:
-====================================================================================
-.mapsno .nodiagrams
-.mapsnone .nodiagrams
-.nomaps .nodiagrams
-.mapsne .fd - RWY 5|- CLE RWY 6|- NORTH ARRIVAL|- RWY 10|- RWY 10R-6|- RWY 4
-.mapssw .fd - RWY 23|- CLE RWY 24|- SOUTH ARRIVAL|- RWY 28|- RWY 28L-24|- RWY 22
-.mapsclassb .fd + CLE CLASS B|+ D21 CLASS B|+ PIT CLASS B
-.mapsminors .fd - ERI AIRSPACE|- FNT AIRSPACE|- YNG AIRSPACE
-.mapsmva .fd - BUF MVA|- CLE MVA|- D21 MVA|- ERI MVA|- LAN MVA|- PIT MVA|- ROC MVA|- YNG MVA
-.mapsvfr .fd - BUF VFR|- CLE VFR|- D21 VFR|- PIT VFR
-
-====================================================================================
 vERAM:
 ====================================================================================
-.vor .ff ACO AGC AIR APE ART ASP AZO BFD BSV BUD BUF BXZ CFB CIP CKB CRL CTW CXR DJB DXO EKN ELX ELZ ERI ESL ETG EWC FBC FDK FKL FLM FNT FQM GEE GGT GRV GSH HAR HGR HLG HVQ ITH JFN JHW JPU JST JXN LDN LFD MBS MFD MGW MIP MOP MRB OLK PPM PSB REC ROC ROD SEG SFK SLT SVM SYR TDT THS TVT ULW VIO VWV YNG YQG YQO YXU YYZ ZZV
+.vor .ff ACO AGC AIR APE ART ASP AZO BFD BSV BUD BUF BXZ CFB CIP CKB CRL CTW CXR DJB DXO EKN ELX ELZ ERI ESL ETG EWC FBC FDK FKL FLM FNT FQM GEE GGT GRV GSH HAR HGR HLG HVQ ITH JFN JHW JPU JST JXN LDN LFD MBS MFD MGW MIP MOP MRB OLK PPM PSB REC ROC ROD SEG SFK SLT SVM SYR TDT THS TVT ULW VIO VWV YNG YQG YXU YYZ ZZV
 .zobday .autotrack KAGC KARB KAZO KBKL KBUF KBVI KCAK KCGF KCKB KCLE KDET KDTW KERI KFNT KHLG KIAG KJST KJXN KLAN KLBE KMBS KMFD KMGW KMTC KPIT KPTK KROC KTOL KYIP KYNG
 .zobmid .autotrack KBUF KCAK KCLE KDTW KLAN KMFD KPIT
 
@@ -616,7 +605,6 @@ NAVAIDS:
 .NAVYCF .MSG ZOB_ISR *** YCF || NONE || CAMBELLFORD || N/A VOR
 .NAVYNG .MSG ZOB_ISR *** YNG || 109.00 || YOUNGSTOWN || LOW VOR
 .NAVYQG .MSG ZOB_ISR *** YQG || NONE || WINDSOR || N/A VOR
-.NAVYQO .MSG ZOB_ISR *** YQO || 114.20 || AYLMER || DME VOR
 .NAVYSO .MSG ZOB_ISR *** YSO || NONE || SIMCOE || N/A VOR
 .NAVYWT .MSG ZOB_ISR *** YWT || NONE || WATERLOO || N/A VOR
 .NAVYXU .MSG ZOB_ISR *** YXU || 117.20 || LONDON || DME VOR
@@ -710,7 +698,6 @@ NAVAIDS:
 .NAVCAMBELLFORD .MSG ZOB_ISR *** YCF || NONE || CAMBELLFORD || N/A VOR
 .NAVYOUNGSTOWN .MSG ZOB_ISR *** YNG || 109.00 || YOUNGSTOWN || LOW VOR
 .NAVWINDSOR .MSG ZOB_ISR *** YQG || NONE || WINDSOR || N/A VOR
-.NAVAYLMER .MSG ZOB_ISR *** YQO || 114.20 || AYLMER || DME VOR
 .NAVSIMCOE .MSG ZOB_ISR *** YSO || NONE || SIMCOE || N/A VOR
 .NAVWATERLOO .MSG ZOB_ISR *** YWT || NONE || WATERLOO || N/A VOR
 .NAVLONDON .MSG ZOB_ISR *** YXU || 117.20 || LONDON || DME VOR
@@ -777,6 +764,17 @@ PROCEDURES:
 ====================================================================================
 FLOW:
 ====================================================================================
+
+====ALL====
+.mapsno .nodiagrams
+.mapsnone .nodiagrams
+.nomaps .nodiagrams
+.mapsne .fd - RWY 5|- CLE RWY 6|- NORTH ARRIVAL|- RWY 10|- RWY 10R-6|- RWY 4
+.mapssw .fd - RWY 23|- CLE RWY 24|- SOUTH ARRIVAL|- RWY 28|- RWY 28L-24|- RWY 22
+.mapsclassb .fd + CLE CLASS B|+ D21 CLASS B|+ PIT CLASS B
+.mapsminors .fd - ERI AIRSPACE|- FNT AIRSPACE|- YNG AIRSPACE
+.mapsmva .fd - BUF MVA|- CLE MVA|- D21 MVA|- ERI MVA|- LAN MVA|- PIT MVA|- ROC MVA|- YNG MVA
+.mapsvfr .fd - BUF VFR|- CLE VFR|- D21 VFR|- PIT VFR
 
 ====CLE====
 .traconcle .FD - CLE RWY 24
