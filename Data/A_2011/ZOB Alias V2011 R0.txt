@@ -759,6 +759,7 @@ PROCEDURES:
 .AGC .openurl http://aeronav.faa.gov/d-tpp/2009/00326allegheny.pdf#nameddest=(AGC)
 .BUF .openurl http://aeronav.faa.gov/d-tpp/2009/00065buffalo.pdf#nameddest=(BUF)
 
+.ids .openurl https://clevelandcenter.org/ids/
 
 
 ====================================================================================
