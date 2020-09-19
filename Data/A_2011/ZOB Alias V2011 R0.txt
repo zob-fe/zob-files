@@ -722,7 +722,7 @@ PROCEDURES:
 .KKISS .openurl http://aeronav.faa.gov/d-tpp/2009/00119kkiss.pdf#nameddest=(DTW)
 .KYLNK .openurl http://aeronav.faa.gov/d-tpp/2009/00119klynk.pdf#nameddest=(DTW)
 .LAYKS .openurl http://aeronav.faa.gov/d-tpp/2009/00119layks.pdf#nameddest=(DTW)
-.RYCTY .openurl http://aeronav.faa.gov/d-tpp/2009/00119rkcty.pdf#nameddest=(DTW)
+.RKCTY .openurl http://aeronav.faa.gov/d-tpp/2009/00119rkcty.pdf#nameddest=(DTW)
 .TPGUN .openurl http://aeronav.faa.gov/d-tpp/2009/00119tpgun.pdf#nameddest=(DTW)
 .VCTRZ .openurl http://aeronav.faa.gov/d-tpp/2009/00119vctrz.pdf#nameddest=(DTW)
 .CUUGR .openurl http://aeronav.faa.gov/d-tpp/2009/00119cuugr.pdf#nameddest=(DTW)
@@ -758,8 +758,8 @@ PROCEDURES:
 .PIT .openurl http://aeronav.faa.gov/d-tpp/2009/00570pittsburgh.pdf#nameddest=(PIT)
 .AGC .openurl http://aeronav.faa.gov/d-tpp/2009/00326allegheny.pdf#nameddest=(AGC)
 .BUF .openurl http://aeronav.faa.gov/d-tpp/2009/00065buffalo.pdf#nameddest=(BUF)
+.IDS .openurl https://clevelandcenter.org/ids/
 
-.ids .openurl https://clevelandcenter.org/ids/
 
 
 ====================================================================================
