@@ -151,10 +151,10 @@ Allegheny Ground:Allegheny Ground:121.700:3H:-:AGC:GND:AGC:GND:0701:0777
 Allegheny Tower:Allegheny Tower:121.100:3F:T:AGC:TWR:AGC:TWR:0701:0777
 Beaver County Ground:Beaver County Ground:121.800:3M:-:BVI:GND:BVI:GND:5101:5177
 Beaver County Tower:Beaver County Tower:120.300:3K:T:BVI:TWR:BVI:TWR:5101:5177
-Pittsburgh Clearance:Pittsburgh Clearance:126.750:3C:-:PIT:DEL:PIT:DEL:0701:0777
-Pittsburgh South Ground:Pittsburgh Ground:121.900:3G:-:PIT:GND:PIT:GS:0701:0777
-Pittsburgh North Ground:Pittsburgh Ground:127.800:3N:-:PIT:GND:PIT:GN:0701:0777
-Pittsburgh Tower:Pittsburgh Tower:128.300:3T:T:PIT:TWR:PIT:TWR:0701:0777
+Pittsburgh Ground 1:Pittsburgh Ground:121.900:3G:-:PIT:GND:PIT:GS:0701:0777
+Pittsburgh Ground 2:Pittsburgh Ground:127.800:3N:-:PIT:GND:PIT:GN:0701:0777
+Pittsburgh Local 1:Pittsburgh Tower:128.300:3T:T:PIT:TWR:PIT:TWR:0701:0777
+Pittsburgh Local 2:Pittsburgh Tower:119.100:3L:L:PIT:TWR:PIT:TWR:0701:0777
 Pittsburgh Arrival North:Pittsburgh Approach:124.150:3B:B:PIT:APP:PIT:3B:0701:0777
 Pittsburgh Arrival South:Pittsburgh Approach:123.950:3D:D:PIT:APP:PIT:APP:0701:0777
 Pittsburgh Departure North:Pittsburgh Departure:124.750:3A:A:PIT:DEP:PIT:3A:0701:0777
