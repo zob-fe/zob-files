@@ -113,11 +113,11 @@ PRE-DEPARTURE CLEARANCE:
 .pdcmp .pdc1 $1 $2 .pdc2p
 .amend
 
-# .pdc1 (Initial Altitude) (Departure Frequency)
-.pdc1 .msg $aircraft **PRE-DEPARTURE CLEARANCE START** | $time Z | CALLSIGN: $aircraft | EQUIP: $type($aircraft) | DEP: $dep | ARR: $arr | SQUAWK: $squawk | APPROVED ROUTE: $route | FINAL ALT: $cruise | ALTITUDE RESTRICTIONS: MAINTAIN $1 | DEP FREQ: $2 
+# .pdc1 (Departure Frequency)
+.pdc1 .msg $aircraft **PRE-DEPARTURE CLEARANCE START** | $time Z | CALLSIGN: $aircraft | EQUIP: $type($aircraft) | DEP: $dep | ARR: $arr | SQUAWK: $squawk | APPROVED ROUTE: $route | FINAL ALT: $cruise | ALTITUDE RESTRICTIONS: CLIMB VIA SID | DEP FREQ: $1
 
-# .pdc1r (Departure Frequency)
-.pdc1r .msg $aircraft **PRE-DEPARTURE CLEARANCE START** | $time Z | CALLSIGN: $aircraft | EQUIP: $type($aircraft) | DEP: $dep | ARR: $arr | SQUAWK: $squawk | APPROVED ROUTE: $route | FINAL ALT: $cruise | ALTITUDE RESTRICTIONS: CLIMB VIA SID | DEP FREQ: $1
+# .pdc1m (Initial Altitude) (Departure Frequency)
+.pdc1m .msg $aircraft **PRE-DEPARTURE CLEARANCE START** | $time Z | CALLSIGN: $aircraft | EQUIP: $type($aircraft) | DEP: $dep | ARR: $arr | SQUAWK: $squawk | APPROVED ROUTE: $route | FINAL ALT: $cruise | ALTITUDE RESTRICTIONS: MAINTAIN $1 | DEP FREQ: $2 
 
 # .pdc1e (Initial Altitude) (Departure Frequency)
 .pdc1e .msg $aircraft **PRE-DEPARTURE CLEARANCE START** | $time Z | CALLSIGN: $aircraft | EQUIP: $type($aircraft) | DEP: $dep | ARR: $arr | SQUAWK: $squawk | APPROVED ROUTE: $route | FINAL ALT: $cruise | ALTITUDE RESTRICTIONS: CLIMB VIA SID, EXCEPT MAINTAIN $1 | DEP FREQ: $2  
