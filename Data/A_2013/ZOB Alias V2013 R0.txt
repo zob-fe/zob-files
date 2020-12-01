@@ -2,8 +2,8 @@ Cleveland ARTCC Alias
 Created by Ryan Geckler
 Updated by Josh Burr, Leszek Kwasniowski, Eton Wallace, Michael Smith
 
-<VERSION= 2012>
-<LAST UPDATE= 11/05/2020>
+<VERSION= 2013>
+<LAST UPDATE= 12/03/2020>
 
 ====================================================================================
 CHANGELOG:
@@ -72,6 +72,10 @@ VERSION 2010
 VERSION 2012
 - Updated procedure commands
 
+VERSION 2013
+- Updated procedure commands
+- Update PDCs
+
 ====================================================================================
 GENERIC CLEARANCE:
 ====================================================================================
@@ -107,10 +111,10 @@ GENERIC CLEARANCE:
 PRE-DEPARTURE CLEARANCE:
 ====================================================================================
 # PDC shortcuts
-.pdc .pdc1r $1 .pdc2
-.pdcp .pdc1r $1 .pdc2p
-.pdcm .pdc1 $1 $2 .pdc2
-.pdcmp .pdc1 $1 $2 .pdc2p
+.pdc .pdc1 $1 .pdc2
+.pdcp .pdc1 $1 .pdc2p
+.pdcm .pdc1m $1 $2 .pdc2
+.pdcmp .pdc1m $1 $2 .pdc2p
 .amend
 
 # .pdc1 (Departure Frequency)
@@ -393,7 +397,7 @@ LOA CROSSINGS:
 vERAM:
 ====================================================================================
 .vor .ff ACO AGC AIR APE ART ASP AZO BFD BSV BUD BUF BXZ CFB CIP CKB CRL CTW CXR DJB DXO EKN ELX ELZ ERI ESL ETG EWC FBC FDK FKL FLM FNT FQM GEE GGT GRV GSH HAR HGR HLG HVQ ITH JFN JHW JPU JST JXN LDN LFD MBS MFD MGW MIP MOP MRB OLK PPM PSB REC ROC ROD SEG SFK SLT SVM SYR TDT THS TVT ULW VIO VWV YNG YQG YXU YYZ ZZV
-.zobday .autotrack KAGC KARB KAZO KBKL KBUF KBVI KCAK KCGF KCKB KCLE KDET KDTW KERI KFNT KHLG KIAG KJST KJXN KLAN KLBE KMBS KMFD KMGW KMTC KPIT KPTK KROC KTOL KYIP KYNG
+.zobday .autotrack KAGC KARB KBKL KBUF KBVI KCAK KCGF KCKB KCLE KDET KDTW KERI KFNT KHLG KIAG KJST KJXN KLAN KLBE KMBS KMFD KMGW KMTC KPIT KPTK KROC KTOL KYIP KYNG
 .zobmid .autotrack KBUF KCAK KCLE KDTW KLAN KMFD KPIT
 
 .d21notrack .autotrack -KARB -KDET -KDTW -KPTK -KYIP
