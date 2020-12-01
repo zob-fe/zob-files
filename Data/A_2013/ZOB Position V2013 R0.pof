@@ -78,6 +78,8 @@ Palmer Ultra High Sector 58:Cleveland Center:121.070:58:C:CLE:CTR:PAR:58:5701:57
 Keystone Ultra High Sector 64:Cleveland Center:134.470:64:C:CLE:CTR:KEY:64:5701:5777
 Jamestown Ultra High Sector 79:Cleveland Center:132.920:79:C:CLE:CTR:JHW:79:5701:5777
 ;
+Traffic Management Unit:Cleveland Center:199.997:TMU:C:CLE:CTR:ZOB:TMU:5701:5777
+;
 ;
 ; D21/DTW Positions
 Ann Arbor Ground:Ann Arbor Ground:121.600:5D:-:ARB:GND:ARB:GND:5101:5177
@@ -122,7 +124,9 @@ Akron-Canton Clearance:Akron-Canton Clearance:132.050:2J:-:CAK:DEL:CAK:DEL:6001:
 Akron-Canton Ground:Akron-Canton Ground:121.700:2H:-:CAK:GND:CAK:GND:6001:6077
 Akron-Canton Tower:Akron-Canton Tower:134.750:2K:-:CAK:TWR:CAK:TWR:6001:6077
 Cleveland South Satellite Radar:Cleveland Approach:118.600:2S:S:CLE:APP:CLE:2S:6001:6077
+  Cleveland South Satellite Radar:Cleveland Approach:118.600:2S:S:CAK:APP:CLE:2S:6001:6077
 Cleveland East Satellite Radar:Cleveland Approach:125.500:2E:E:CLE:APP:CLE:2E:6001:6077
+  Cleveland East Satellite Radar:Cleveland Approach:125.500:2E:E:CAK:APP:CLE:2E:6001:6077
 County Ground:County Ground:121.850:2U:-:CGF:GND:CGF:GND:7401:7477
 County Tower:County Tower:118.500:2Y:-:CGF:TWR:CGF:TWR:7401:7477
 Cleveland Clearance:Cleveland Clearance:125.050:2C:-:CLE:DEL:CLE:DEL:7401:7477
@@ -138,6 +142,7 @@ Lakefront Tower:Lakefront Tower:124.300:2L:-:BKL:TWR:BKL:TWR:7401:7477
 Mansfield Ground:Mansfield Ground:121.800:2M:-:MFD:GND:MFD:GND:5101:5177
 Mansfield Tower:Mansfield Tower:119.800:2P:-:MFD:TWR:MFD:TWR:5101:5177
 Cleveland West Satellite Radar:Cleveland Approach:124.200:2W:W:CLE:APP:CLE:2W:5101:5177
+  Cleveland West Satellite Radar:Cleveland Approach:124.200:2W:W:MFD:APP:CLE:2W:5101:5177
 ;
 ; PIT Positions
 ;
@@ -148,7 +153,8 @@ Beaver County Tower:Beaver County Tower:120.300:3K:-:BVI:TWR:BVI:TWR:5101:5177
 Pittsburgh Clearance:Pittsburgh Clearance:126.750:3C:-:PIT:DEL:PIT:DEL:0701:0777
 Pittsburgh South Ground:Pittsburgh Ground:121.900:3G:-:PIT:GND:PIT:GS:0701:0777
 Pittsburgh North Ground:Pittsburgh Ground:127.800:3N:-:PIT:GND:PIT:GN:0701:0777
-Pittsburgh Tower:Pittsburgh Tower:128.300:3T:T:PIT:TWR:PIT:TWR:0701:0777
+Pittsburgh South Tower:Pittsburgh Tower:128.300:3T:T:PIT:TWR:PIT:TWR:0701:0777
+Pittsburgh North Tower:Pittsburgh Tower:119.100:3L:L:PIT:TWR:PIT:TWR:0701:0777
 Pittsburgh Arrival North:Pittsburgh Approach:124.150:3B:B:PIT:APP:PIT:3B:0701:0777
 Pittsburgh Arrival South:Pittsburgh Approach:123.950:3D:D:PIT:APP:PIT:APP:0701:0777
 Pittsburgh Departure North:Pittsburgh Departure:124.750:3A:A:PIT:DEP:PIT:3A:0701:0777
@@ -452,9 +458,9 @@ Shenandoah Super High Sector 72:Washington Center:134.620:W72:C:DC:CTR:ZDC:W72:0
 ;
 POTOMAC TRACON
 ;
-BWIFS (Chesapeake) Sector 1S:Potomac Approach:119.700:D1S:S:BWI:APP:BWI:APP:0000:0000
-MULRR (Shenandoah) Sector 3M:Potomac Approach:126.100:D3M:M:IAD:APP:IAD:APP:0000:0000
-OJAAY (Mount Vernon) Sector 1J:Potomac Approach:119.850:D1J:J:PCT:APP:DCA:APP:0000:0000
+BWIFS (Chesapeake) Sector 1S:Potomac Approach:119.700:W1S:S:BWI:APP:BWI:APP:0000:0000
+MULRR (Shenandoah) Sector 3M:Potomac Approach:126.100:W3M:M:IAD:APP:IAD:APP:0000:0000
+OJAAY (Mount Vernon) Sector 1J:Potomac Approach:119.850:W1J:J:PCT:APP:DCA:APP:0000:0000
 ;
 ;
 ZNY AREA A
