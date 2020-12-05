@@ -105,11 +105,14 @@ Detroit East Jet Departure:Detroit Departure:132.020:4E:E:DTW:DEP:D21:4E:4101:41
 Detroit West Jet Departure:Detroit Departure:125.520:4W:W:DTW:DEP:D21:4W:4101:4177
 Detroit West Satellite:Detroit Approach:118.950:4Y:Y:DTW:APP:D21:4Y:4101:4177
 Detroit East Satellite:Detroit Approach:134.300:4D:D:DTW:APP:D21:4D:4101:4177
-Detroit North Satellite:Detroit Approach:127.500:4P:P:DTW:APP:D21:4P:4101:4177
-Detroit West Feeder:Detroit Approach:124.970:4V:V:DTW:APP:D21:4V:4101:4177
-Detroit East Feeder:Detroit Approach:126.220:4F:F:DTW:APP:D21:4F:4101:4177
-Detroit West Arrival:Detroit Approach:124.050:4A:A:DTW:APP:D21:4A:4101:4177
-Detroit East Arrival:Detroit Approach:125.150:4B:B:DTW:APP:D21:4B:4101:4177
+Detroit North Satellite:Detroit Approach:132.350:4P:P:DTW:APP:D21:4P:4101:4177
+Detroit Northwest Feeder:Detroit Approach:126.850:4R:R:DTW:APP:D21:4R:4104:4177
+Detroit Southwest Feeder:Detroit Approach:124.970:4V:V:DTW:APP:D21:4V:4101:4177
+Detroit Northeast Feeder:Detroit Approach:126.220:4F:F:DTW:APP:D21:4F:4101:4177
+Detroit Southeast Feeder:Detroit Approach:124.250:4H:H:DTW:APP:D21:4H:4101:4177
+Detroit West Final:Detroit Approach:124.050:4A:A:DTW:APP:D21:4A:4101:4177
+Detroit East Final:Detroit Approach:125.150:4B:B:DTW:APP:D21:4B:4101:4177
+Detroit Third Final:Detroit Approach:123.900:4Z:Z:DTW:APP:D21:4Z:4101:4177
 Pontiac Clearance:Pontiac Clearance:118.250:4O:-:PTK:DEL:PTK:DEL:6001:6077
 Pontiac Ground:Pontiac Ground:121.900:4Q:-:PTK:GND:PTK:GND:6001:6077
 Pontiac Tower:Pontiac Tower:120.500:4R:-:PTK:TWR:PTK:TWR:6001:6077
