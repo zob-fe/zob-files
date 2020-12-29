@@ -763,6 +763,8 @@ PROCEDURES:
 .TRMML .openurl http://aeronav.faa.gov/d-tpp/2014/00119trmml.pdf#nameddest=(DTW)
 .ZETTR .openurl http://aeronav.faa.gov/d-tpp/2014/00119zettr.pdf#nameddest=(DTW)
 .XEROX .openurl http://aeronav.faa.gov/d-tpp/2014/00351xerox.pdf#nameddest=(ROC)
+.JENER .openurl http://aeronav.faa.gov/d-tpp/2014/00898jener.pdf#nameddest=(JST)
+.LILLI .openurl http://aeronav.faa.gov/d-tpp/2014/00898lilli.pdf#nameddest=(JST)
 .PIT .openurl http://aeronav.faa.gov/d-tpp/2014/00570pittsburgh.pdf#nameddest=(PIT)
 .AGC .openurl http://aeronav.faa.gov/d-tpp/2014/00326allegheny.pdf#nameddest=(AGC)
 .BUF .openurl http://aeronav.faa.gov/d-tpp/2014/00065buffalo.pdf#nameddest=(BUF)
