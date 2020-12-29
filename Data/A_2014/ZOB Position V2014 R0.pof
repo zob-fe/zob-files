@@ -1,7 +1,7 @@
 ; VATSIM Cleveland (ZOB) Position File
 ; www.clevelandcenter.org
 ;
-; ATM Notes - NL- 29 NOV 2020
+; FE Notes - SHP - 28SEP19
 ; Maintained in ZOB_POF_FILE.xlsx.  "WorkingSheet" is parsed for ease of data handling.  "ExportSheet" is concatenated and ready for copy-paste of values to a POF file
 ; Use caution when adding/remove lines to the WorkingSheet.  Ensure a matching move is made on the export sheet and no "#REF" pop up
 ; When ready to export, suggesting auditing the formula on the first data line, then copy-pasting the formula down through the max line number required.
@@ -177,6 +177,7 @@ Erie Clearance:Erie Clearance:126.800:1X:-:ERI:DEL:ERI:DEL:6001:6077
 Erie Ground:Erie Ground:121.900:1Y:-:ERI:GND:ERI:GND:6001:6077
 Erie Tower:Erie Tower:118.100:1Z:-:ERI:TWR:ERI:TWR:6001:6077
 Buffalo Approach (Erie TRSA):Buffalo Approach:121.000:1R:R:BUF:APP:BUF:1R:6001:6077
+  Buffalo Approach (Erie TRSA):Buffalo Approach:121.000:1R:R:ERI:APP:BUF:1R:6001:6077
 Niagara Clearance:Niagara Clearance:119.250:1P:-:IAG:DEL:IAG:DEL:6001:6077
 Niagara Ground:Niagara Ground:125.300:1O:-:IAG:GND:IAG:GND:6001:6077
 Niagara Tower:Niagara Tower:118.500:1N:-:IAG:TWR:IAG:TWR:6001:6077
@@ -187,10 +188,13 @@ Flint Clearance:Flint Clearance:121.750:5X:-:FNT:DEL:FNT:DEL:6001:6077
 Flint Ground:Flint Ground:121.900:5Y:-:FNT:GND:FNT:GND:6001:6077
 Flint Tower:Flint Tower:126.300:5Z:-:FNT:TWR:FNT:TWR:6001:6077
 Great Lakes Buick Sector (Flint East):Great Lakes Approach:118.800:5U:U:LAN:APP:LAN:5U:6001:6077
+  Great Lakes Buick Sector (Flint East):Great Lakes Approach:118.800:5U:U:FNT:APP:LAN:5U:6001:6077
 Great Lakes Olds Sector (Flint West):Great Lakes Approach:128.550:5F:F:LAN:APP:LAN:5F:6001:6077
+  Great Lakes Olds Sector (Flint West):Great Lakes Approach:128.550:5F:F:FNT:APP:LAN:5F:6001:6077
 Jackson Ground:Jackson Ground:121.900:5W:-:JXN:GND:JXN:GND:5101:5177
 Jackson Tower:Jackson Tower:128.470:5V:-:JXN:TWR:JXN:TWR:5101:5177
 Great Lakes Reynolds Sector (Jackson):Great Lakes Approach:127.300:5R:R:LAN:APP:LAN:APP:5101:5177
+  Great Lakes Reynolds Sector (Jackson):Great Lakes Approach:127.300:5R:R:JXN:APP:LAN:APP:5101:5177
 Lansing Clearance:Lansing Clearance:123.670:5C:-:LAN:DEL:LAN:DEL:6001:6077
 Lansing Ground:Lansing Ground:121.900:5G:-:LAN:GND:LAN:GND:6001:6077
 Lansing Tower:Lansing Tower:119.900:5T:-:LAN:TWR:LAN:TWR:6001:6077
@@ -199,7 +203,9 @@ Saginaw Clearance:Saginaw Clearance:121.850:5S:-:MBS:DEL:MBS:DEL:6001:6077
 Saginaw Ground:Saginaw Ground:121.700:5P:-:MBS:GND:MBS:GND:6001:6077
 Saginaw Tower:Saginaw Tower:120.100:5Q:-:MBS:TWR:MBS:TWR:6001:6077
 Great Lakes Bay Approach (Saginaw SE):Great Lakes Approach:120.950:5B:B:LAN:APP:LAN:5B:6001:6077
+  Great Lakes Bay Approach (Saginaw SE):Great Lakes Approach:120.950:5B:B:MBS:APP:LAN:5B:6001:6077
 Great Lakes Chippewa Approach (Saginaw NW):Great Lakes Approach:126.450:5H:H:LAN:APP:LAN:5N:6001:6077
+  Great Lakes Chippewa Approach (Saginaw NW):Great Lakes Approach:126.450:5H:H:MBS:APP:LAN:5N:6001:6077
 ;
 ; TOL Positions
 ;
@@ -235,6 +241,7 @@ Johnstown Approach:Johnstown Approach:128.200:8E:E:JST:APP:JST:8E:5101:5177
 Palmer Ground:Palmer Ground:121.800:8Q:-:LBE:GND:LBE:GND:5101:5177
 Palmer Tower:Palmer Tower:125.000:8P:-:LBE:TWR:LBE:TWR:5101:5177
 Johnstown Approach (Palmer Area):Johnstown Approach:121.200:8W:W:JST:APP:JST:8W:5101:5177
+  Johnstown Approach (Palmer Area):Johnstown Approach:121.200:8W:W:LBE:APP:JST:8W:5101:5177
 ;
 ; MTC Positions
 ;
