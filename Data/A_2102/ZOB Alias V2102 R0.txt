@@ -352,6 +352,8 @@ MISC:
 .brb Attention all aircraft: $radioname() will be right back
 .bk Attention all aircraft: $radioname() is back.
 
+.pref .openurl https://clevelandcenter.org/routing?o=$dep&d=$arr
+
 .rsct .reloadsector
 .ras .reloadaliases
 
