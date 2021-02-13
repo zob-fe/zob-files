@@ -567,6 +567,7 @@ Syracuse Approach (North Radar):Syracuse Approach:134.270:B1B:N:SYR:APP:SYR:XG:0
 ZYZ SECTORS
 ;
 Toronto Centralia Sector:Toronto Centre:125.770:YZ:C:TOR:CTR:ZYZ:YZ:0000:0000
+  Toronto Centralia Sector:Toronto Centre:125.775:YZ:C:TOR:CTR:ZYZ:YZ:0000:0000
 Toronto Lucan Sector:Toronto Centre:135.820:YLU:C:TOR:CTR:ZYZ:YLU:0000:0000
 Toronto Midland Sector:Toronto Centre:124.370:YMI:C:TOR:CTR:ZYZ:YMI:0000:0000
 Toronto Wiarton Sector:Toronto Centre:132.570:YVV:C:TOR:CTR:ZYZ:YVV:0000:0000
