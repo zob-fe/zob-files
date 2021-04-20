@@ -97,10 +97,10 @@ Metro Ground Northwest:Metro Ground:121.800:4G:-:DTW:GND:DTW:GNW:4101:4177
 Metro Ground Northeast:Metro Ground:119.450:4H:-:DTW:GND:DTW:GNE:4101:4177
 Metro Ground Southwest:Metro Ground:132.720:4J:-:DTW:GND:DTW:GSW:4101:4177
 Metro Ground Southeast:Metro Ground:119.250:4I:-:DTW:GND:DTW:GSE:4101:4177
-Metro Tower (3L/R, 21L/R, 27R):Metro Tower:118.570:4U:U:DTW:TWR:DTW:TNE:4101:4177
-Metro Tower (4R/22L):Metro Tower:135.000:4L:L:DTW:TWR:DTW:TSW:4101:4177
-Metro Tower (27L):Metro Tower:118.400:4M:M:DTW:TWR:DTW:TSE:4101:4177
-Metro Tower (4L/22R):Metro Tower:128.120:4T:T:DTW:TWR:DTW:TW:4101:4177
+Metro Tower Northwest:Metro Tower:128.120:4L:L:DTW:TWR:DTW:LNW:4101:4177
+Metro Tower Northeast:Metro Tower:128.750:4M:M:DTW:TWR:DTW:LNE:4101:4177
+Metro Tower Southwest:Metro Tower:135.000:4N:N:DTW:TWR:DTW:LSW:4101:4177
+Metro Tower Southeast:Metro Tower:118.400:4T:T:DTW:TWR:DTW:LSE:4101:4177
 Detroit East Jet Departure:Detroit Departure:132.020:4E:E:DTW:DEP:D21:4E:4101:4177
 Detroit West Jet Departure:Detroit Departure:125.520:4W:W:DTW:DEP:D21:4W:4101:4177
 Detroit West Satellite:Detroit Approach:118.950:4Y:Y:DTW:APP:D21:4Y:4101:4177
@@ -219,8 +219,7 @@ Toledo West Approach:Toledo Approach:134.350:6H:W:TOL:APP:TOL:APP:6001:6077
 ;
 Clarksburg Ground:Clarksburg Ground:121.900:7G:-:CKB:GND:CKB:GND:5101:5177
 Clarksburg Tower:Clarksburg Tower:126.700:7T:-:CKB:TWR:CKB:TWR:5101:5177
-Clarksburg East Approach:Clarksburg Approach:121.150:7E:E:CKB:APP:CKB:7E:5101:5177
-Clarksburg West Approach:Clarksburg Approach:119.600:7W:W:CKB:APP:CKB:7W:5101:5177
+Clarksburg Approach:Clarksburg Approach:121.150:7E:E:CKB:APP:CKB:7E:5101:5177
 Morgantown Ground:Morgantown Ground:121.700:7N:-:MGW:GND:MGW:GND:5101:5177
 Morgantown Tower:Morgantown Tower:125.100:7M:-:MGW:TWR:MGW:TWR:5101:5177
 ;
@@ -237,11 +236,9 @@ Rochester Approach West:Rochester Approach:123.700:9W:W:ROC:APP:ROC:9W:6001:6077
 Johnstown Clearance:Johnstown Clearance:126.850:8C:-:JST:DEL:JST:DEL:5101:5177
 Johnstown Ground:Johnstown Ground:121.600:8G:-:JST:GND:JST:GND:5101:5177
 Johnstown Tower:Johnstown Tower:125.750:8T:-:JST:TWR:JST:TWR:5101:5177
-Johnstown Approach:Johnstown Approach:128.200:8E:E:JST:APP:JST:8E:5101:5177
+Johnstown Approach:Johnstown Approach:121.200:8E:E:JST:APP:JST:8E:5101:5177
 Palmer Ground:Palmer Ground:121.800:8Q:-:LBE:GND:LBE:GND:5101:5177
 Palmer Tower:Palmer Tower:125.000:8P:-:LBE:TWR:LBE:TWR:5101:5177
-Johnstown Approach (Palmer Area):Johnstown Approach:121.200:8W:W:JST:APP:JST:8W:5101:5177
-  Johnstown Approach (Palmer Area):Johnstown Approach:121.200:8W:W:LBE:APP:JST:8W:5101:5177
 ;
 ; MTC Positions
 ;
