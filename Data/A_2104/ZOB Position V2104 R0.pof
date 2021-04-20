@@ -93,14 +93,14 @@ Delta Ramp A41-A75 (Odd) Control:Delta Ramp Control:123.670:DNE:-:DTW:GND:DTW:DN
 Delta Ramp B1-B21 (Odd), C1-39 (Odd) Control:Delta Ramp Control:127.820:DWB:-:DTW:GND:DTW:DWR:4101:4177
 North Ramp Control:North Ramp Control:130.800:DNA:-:DTW:GND:DTW:DRA:4101:4177
 North Ramp Control:North Ramp Control:130.150:DNB:-:DTW:GND:DTW:DRB:4101:4177
-Metro Ground Northwest:Metro Ground:121.800:G:-:DTW:GND:DTW:GNW:4101:4177
-Metro Ground Northeast:Metro Ground:119.450:I:-:DTW:GND:DTW:GNE:4101:4177
-Metro Ground Southwest:Metro Ground:132.720:J:-:DTW:GND:DTW:GSW:4101:4177
-Metro Ground Southeast:Metro Ground:119.250:K:-:DTW:GND:DTW:GSE:4101:4177
-Metro Tower Northwest:Metro Tower:128.120:L:L:DTW:TWR:DTW:LNW:4101:4177
-Metro Tower Northeast:Metro Tower:128.750:M:M:DTW:TWR:DTW:LNE:4101:4177
-Metro Tower Southwest:Metro Tower:135.000:N:N:DTW:TWR:DTW:LSW:4101:4177
-Metro Tower Southeast:Metro Tower:118.400:T:T:DTW:TWR:DTW:LSE:4101:4177
+Metro Ground Northwest:Metro Ground:121.800:4G:-:DTW:GND:DTW:GNW:4101:4177
+Metro Ground Northeast:Metro Ground:119.450:4H:-:DTW:GND:DTW:GNE:4101:4177
+Metro Ground Southwest:Metro Ground:132.720:4J:-:DTW:GND:DTW:GSW:4101:4177
+Metro Ground Southeast:Metro Ground:119.250:4I:-:DTW:GND:DTW:GSE:4101:4177
+Metro Tower (3L/R, 21L/R, 27R):Metro Tower:118.570:4U:U:DTW:TWR:DTW:TNE:4101:4177
+Metro Tower (4R/22L):Metro Tower:135.000:4L:L:DTW:TWR:DTW:TSW:4101:4177
+Metro Tower (27L):Metro Tower:118.400:4M:M:DTW:TWR:DTW:TSE:4101:4177
+Metro Tower (4L/22R):Metro Tower:128.120:4T:T:DTW:TWR:DTW:TW:4101:4177
 Detroit East Jet Departure:Detroit Departure:132.020:4E:E:DTW:DEP:D21:4E:4101:4177
 Detroit West Jet Departure:Detroit Departure:125.520:4W:W:DTW:DEP:D21:4W:4101:4177
 Detroit West Satellite:Detroit Approach:118.950:4Y:Y:DTW:APP:D21:4Y:4101:4177
@@ -219,7 +219,8 @@ Toledo West Approach:Toledo Approach:134.350:6H:W:TOL:APP:TOL:APP:6001:6077
 ;
 Clarksburg Ground:Clarksburg Ground:121.900:7G:-:CKB:GND:CKB:GND:5101:5177
 Clarksburg Tower:Clarksburg Tower:126.700:7T:-:CKB:TWR:CKB:TWR:5101:5177
-Clarksburg Approach:Clarksburg Approach:121.150:7E:E:CKB:APP:CKB:7E:5101:5177
+Clarksburg East Approach:Clarksburg Approach:121.150:7E:E:CKB:APP:CKB:7E:5101:5177
+Clarksburg West Approach:Clarksburg Approach:119.600:7W:W:CKB:APP:CKB:7W:5101:5177
 Morgantown Ground:Morgantown Ground:121.700:7N:-:MGW:GND:MGW:GND:5101:5177
 Morgantown Tower:Morgantown Tower:125.100:7M:-:MGW:TWR:MGW:TWR:5101:5177
 ;
@@ -236,10 +237,11 @@ Rochester Approach West:Rochester Approach:123.700:9W:W:ROC:APP:ROC:9W:6001:6077
 Johnstown Clearance:Johnstown Clearance:126.850:8C:-:JST:DEL:JST:DEL:5101:5177
 Johnstown Ground:Johnstown Ground:121.600:8G:-:JST:GND:JST:GND:5101:5177
 Johnstown Tower:Johnstown Tower:125.750:8T:-:JST:TWR:JST:TWR:5101:5177
-Johnstown Approach:Johnstown Approach:121.200:8E:E:JST:APP:JST:8E:5101:5177
+Johnstown Approach:Johnstown Approach:128.200:8E:E:JST:APP:JST:8E:5101:5177
 Palmer Ground:Palmer Ground:121.800:8Q:-:LBE:GND:LBE:GND:5101:5177
 Palmer Tower:Palmer Tower:125.000:8P:-:LBE:TWR:LBE:TWR:5101:5177
-
+Johnstown Approach (Palmer Area):Johnstown Approach:121.200:8W:W:JST:APP:JST:8W:5101:5177
+  Johnstown Approach (Palmer Area):Johnstown Approach:121.200:8W:W:LBE:APP:JST:8W:5101:5177
 ;
 ; MTC Positions
 ;
@@ -302,54 +304,25 @@ Miller High Sector 44:Minneapolis Center:120.050:P44:C:MSP:CTR:ZMP:P44:0000:0000
 ;
 ZAU SECTORS
 ;
-Sparta Low Sector 22:Chicago Center:128.500:G22:C:CHI:CTR:ZAU:G22:0000:0000
-Empire Super High Sector 23: Chicago Center:125.970:G23:C:CHI:CTR:ZAU:G23:0000:0000
-Freemont High Sector 24:Chicago Center:132.270:G24:C:CHI:CTR:ZAU:G24:0000:0000
-Pullman High Sector 25:Chicago Center:126.120:G25:C:CHI:CTR:ZAU:G25:0000:0000
-KUBBS Low Sector 26:Chicago Center:133.200:G26:C:CHI:CTR:ZAU:G26:0000:0000
-SQUIB Low Sector 27:Chicago Center:125.100:G27:C:CHI:CTR:ZAU:G27:0000:0000
-Goshen Low Sector 31:Chicago Center:128.800:G31:C:CHI:CTR:ZAU:G31:0000:0000
-Kokomo Low Sector 32:Chicago Center:120.970:G32:C:CHI:CTR:ZAU:G32:0000:0000
-BURBN Super High Sector 33:Chicago Center:126.320:G33:C:CHI:CTR:ZAU:G33:0000:0000
-LOGAN High Sector 34:Chicago Center:125.370:G34:C:CHI:CTR:ZAU:G34:0000:0000
-BEARZ Low Sector 35:Chicago Center:134.870:G35:C:CHI:CTR:ZAU:G35:0000:0000
-Fort Wayne High Sector 36:Chicago Center:124.820:G36:C:CHI:CTR:ZAU:G36:0000:0000
-Wolf Lake Low Sector 37:Chicago Center:119.850:G37:C:CHI:CTR:ZAU:G37:0000:0000
-NEWTT Low Sector 43:Chicago Center:119.950:G43:C:CHI:CTR:ZAU:G43:0000:0000
-Peotone Low Sector 44:Chicago Center:120.120:G44:C:CHI:CTR:ZAU:G44:0000:0000
-Roberts High Sector 45:Chicago Center:134.020:G45:C:CHI:CTR:ZAU:G45:0000:0000
-Boiler High Sector 46:Chicago Center:121.270:G46:C:CHI:CTR:ZAU:G46:0000:0000
-Chanute Super High Sector 47:Chicago Center:127.320:G47:C:CHI:CTR:ZAU:G47:0000:0000
-Streator Low Sector 50:Chicago Center:123.750:G50:C:CHI:CTR:ZAU:G50:0000:0000
-PLANO Low Sector 51:Chicago Center:135.150:G51:C:CHI:CTR:ZAU:G51:0000:0000
-Bradford High Sector 52:Chicago Center:132.220:G52:C:CHI:CTR:ZAU:G52:0000:0000
-Burlington Low Sector 55:Chicago Center:118.750:G55:C:CHI:CTR:ZAU:G55:0000:0000
-Ottumwa Low Sector 56:Chicago Center:132.800:G56:C:CHI:CTR:ZAU:G56:0000:0000
-Danville Low Sector 57:Chicago Center:135.750:G57:C:CHI:CTR:ZAU:G57:0000:0000
-Lincoln Low Sector 58:Chicago Center:119.220:G58:C:CHI:CTR:ZAU:G58:0000:0000
-Badger High Sector 60:Chicago Center:126.870:G60:C:CHI:CTR:ZAU:G60:0000:0000
-Horicon Super High Sector 61:Chicago Center:121.370:G61:C:CHI:CTR:ZAU:G61:0000:0000
-Harley Low Sector 62:Chicago Center:123.820:G62:C:CHI:CTR:ZAU:G62:0000:0000
-Dubuque Low Sector 63:Chicago Center:133.950:G63:C:CHI:CTR:ZAU:G63:0000:0000
-Lone Rock Low Sector 64:Chicago Center:133.300:G64:C:CHI:CTR:ZAU:G64:0000:0000
-Waterloo Super High Sector 71:Chicago Center:132.620:G71:C:CHI:CTR:ZAU:G71:0000:0000
-FARMM Low Sector 74:Chicago Center:133.350:G74:C:CHI:CTR:ZAU:G74:0000:0000
-COTON High Sectoor 75:Chicago Center:118.420:G75:C:CHI:CTR:ZAU:G75:0000:0000
-Arlington High Sector 76:Chicago Center:125.220:G76:C:CHI:CTR:ZAU:G76:0000:0000
-MALTA Low Sector 77:Chicago Center:127.070:G77:C:CHI:CTR:ZAU:G77:0000:0000
-KELOG Low Sector 80:Chicago Center:127.550:G80:C:CHI:CTR:ZAU:G80:0000:0000
-CRIBB Low Sector 81:Chicago Center:120.350:G81:C:CHI:CTR:ZAU:G81:0000:0000
-SWEET Low Sector 82:Chicago Center:126.420:G82:C:CHI:CTR:ZAU:G82:0000:0000
-Joliet High Sector 83:Chicago Center:118.220:G83:C:CHI:CTR:ZAU:G83:0000:0000
-McCook Super High Sector 84:Chicago Center:126.270:G84:C:CHI:CTR:ZAU:G84:0000:0000
-LaGrange Super High Sector 85:Chicago Center:120.220:G85:C:CHI:CTR:ZAU:G85:0000:0000
-Keeler High Sector 88:Chicago Center:127.620:G88:C:CHI:CTR:ZAU:G88:0000:0000
-Gipper High Sector 89:Chicago Center:126.470:G89:C:CHI:CTR:ZAU:G89:0000:0000
-LOWLI High Sector 90:Chicago Center:128.520:G90:C:CHI:CTR:ZAU:G90:0000:0000
-Hanna City Super High Sector 91:Chicago Center:134.320:G91:C:CHI:CTR:ZAU:G91:0000:0000
-HAWKS High Sector 92:Chicago Center:124.720:G92:C:CHI:CTR:ZAU:G92:0000:0000
-Iowa City High Sector 94:Chicago Center:125.570:G94:C:CHI:CTR:ZAU:G94:0000:0000
-Washington Super High Sector 95:Chicago Center:135.970:G95:C:CHI:CTR:ZAU:G95:0000:0000
+CRIBB Low Sector 81:Chicago Center:120.350:81:C:CHI:CTR:ZAU:G81:0000:0000
+GIJ High Sector 89:Chicago Center:126.470:89:C:CHI:CTR:ZAU:G89:0000:0000
+BEARZ Low Sector 35:Chicago Center:134.870:35:C:CHI:CTR:ZAU:G35:0000:0000
+FWA High Sector 36:Chicago Center:126.320:36:C:CHI:CTR:ZAU:G36:0000:0000
+EON Low Sector 44:Chicago Center:120.120:44:C:CHI:CTR:ZAU:G44:0000:0000
+BVT High Sector 46:Chicago Center:121.270:46:C:CHI:CTR:ZAU:G46:0000:0000
+PLANO Low Sector 51:Chicago Center:135.150:51:C:CHI:CTR:ZAU:G51:0000:0000
+BDF High Sector 52:Chicago Center:132.220:52:C:CHI:CTR:ZAU:G52:0000:0000
+BRL Low Sector 55:Chicago Center:118.750:55:C:CHI:CTR:ZAU:G55:0000:0000
+IOW High Sector 94:Chicago Center:125.570:94:C:CHI:CTR:ZAU:G94:0000:0000
+COTON High Sector 75:Chicago Center:127.770:75:C:CHI:CTR:ZAU:G75:0000:0000
+FARMM Low Sector74:Chicago Center:133.350:74:C:CHI:CTR:ZAU:G74:0000:0000
+MALTA Low Sector 77:Chicago Center:134.820:77:C:CHI:CTR:ZAU:G77:0000:0000
+LNR Low Sector 64:Chicago Center:133.300:64:C:CHI:CTR:ZAU:G64:0000:0000
+BAE High Sector 60:Chicago Center:126.870:60:C:CHI:CTR:ZAU:G60:0000:0000
+HARLY Low Sector 62:Chicago Center:123.820:62:C:CHI:CTR:ZAU:G62:0000:0000
+DBQ Low Sector 63:Chicago Center:133.950:63:C:CHI:CTR:ZAU:G63:0000:0000
+KUBBS High Sector 26:Chicago Center:133.200:26:C:CHI:CTR:ZAU:G26:0000:0000
+PMM High Sector 25:Chicago Center:126.120:25:C:CHI:CTR:ZAU:G25:0000:0000
 ;
 ZAU TRACONS
 ;
