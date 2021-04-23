@@ -219,8 +219,7 @@ Toledo West Approach:Toledo Approach:134.350:6H:W:TOL:APP:TOL:APP:6001:6077
 ;
 Clarksburg Ground:Clarksburg Ground:121.900:7G:-:CKB:GND:CKB:GND:5101:5177
 Clarksburg Tower:Clarksburg Tower:126.700:7T:-:CKB:TWR:CKB:TWR:5101:5177
-Clarksburg East Approach:Clarksburg Approach:121.150:7E:E:CKB:APP:CKB:7E:5101:5177
-Clarksburg West Approach:Clarksburg Approach:119.600:7W:W:CKB:APP:CKB:7W:5101:5177
+Clarksburg Approach:Clarksburg Approach:121.150:7E:E:CKB:APP:CKB:7E:5101:5177
 Morgantown Ground:Morgantown Ground:121.700:7N:-:MGW:GND:MGW:GND:5101:5177
 Morgantown Tower:Morgantown Tower:125.100:7M:-:MGW:TWR:MGW:TWR:5101:5177
 ;
@@ -237,11 +236,10 @@ Rochester Approach West:Rochester Approach:123.700:9W:W:ROC:APP:ROC:9W:6001:6077
 Johnstown Clearance:Johnstown Clearance:126.850:8C:-:JST:DEL:JST:DEL:5101:5177
 Johnstown Ground:Johnstown Ground:121.600:8G:-:JST:GND:JST:GND:5101:5177
 Johnstown Tower:Johnstown Tower:125.750:8T:-:JST:TWR:JST:TWR:5101:5177
-Johnstown Approach:Johnstown Approach:128.200:8E:E:JST:APP:JST:8E:5101:5177
+Johnstown Approach:Johnstown Approach:121.200:8E:E:JST:APP:JST:8E:5101:5177
 Palmer Ground:Palmer Ground:121.800:8Q:-:LBE:GND:LBE:GND:5101:5177
 Palmer Tower:Palmer Tower:125.000:8P:-:LBE:TWR:LBE:TWR:5101:5177
-Johnstown Approach (Palmer Area):Johnstown Approach:121.200:8W:W:JST:APP:JST:8W:5101:5177
-  Johnstown Approach (Palmer Area):Johnstown Approach:121.200:8W:W:LBE:APP:JST:8W:5101:5177
+
 ;
 ; MTC Positions
 ;
