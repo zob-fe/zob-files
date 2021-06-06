@@ -565,8 +565,9 @@ Plattsburgh High Sector 53:Boston Center:118.820:B53:C:BOS:CTR:ZBW:B53:0000:0000
 ;
 ZBW TRACON
 ;
-Syracuse Approach (South Radar):Syracuse Approach:126.120:B1A:S:SYR:APP:SYR:XF:0000:0000
-Syracuse Approach (North Radar):Syracuse Approach:134.270:B1B:N:SYR:APP:SYR:XG:0000:0000
+Syracuse North Radar:Syracuse Approach:134.270:B1S:S:SYR:APP:SYR:SR:0000:0000
+Georgetown South Radar:Syracuse Approach:126.120:B1G:G:SYR:APP:SYR:GR:0000:0000
+Rome Radar:Syracuse Approach:127.420:B1U:U:SYR:APP:SYR:RR:0000:0000
 ;
 ZYZ SECTORS
 ;
