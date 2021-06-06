@@ -388,51 +388,75 @@ Dayton Feeder East:Columbus Approach:118.850:I2E:E:CMH:APP:CMH:I2E:0000:0000
 ;
 ZDC Sectors
 ;
-Elkins (DC Metro) Sector 01:Washington Center:128.600:W01:C:DC:CTR:ZDC:W01:0000:0000
-Casanova Low Sector 02:Washington Center:133.200:W02:C:DC:CTR:ZDC:W02:0000:0000
-BRICE High Sector 03:Washington Center:118.020:W03:C:DC:CTR:ZDC:W03:0000:0000
-Pinion High Sector 04:Washington Center:133.970:W04:C:DC:CTR:ZDC:W04:0000:0000
-Linden Low Sector 05:Washington Center:133.550:W05:C:DC:CTR:ZDC:W05:0000:0000
-Hagerstown Low Sector 06:Washington Center:134.150:W06:C:DC:CTR:ZDC:W06:0000:0000
-DIXON Super High Sector 09:Washington Center:118.825:W09:C:DC:CTR:ZDC:W09:0000:0000
-Bay High Sector 10:Washington Center:132.270:W10:C:DC:CTR:ZDC:W10:0000:0000
-Calvert Low Sector 11:Washington Center:133.900:W11:C:DC:CTR:ZDC:W11:0000:0000
-Brooke High Sector 12:Washington Center:126.870:W12:C:DC:CTR:ZDC:W12:0000:0000
-Irons Low Sector 14:Washington Center:132.950:W14:C:DC:CTR:ZDC:W14:0000:0000
-Blue Ridge Low Sector 15:Washington Center:133.650:W15:C:DC:CTR:ZDC:W15:0000:0000
-Hopewell Low Sector 16:Washington Center:121.870:W16:C:DC:CTR:ZDC:W16:0000:0000
-SWANN Low Sector 17:Washington Center:134.500:W17:C:DC:CTR:ZDC:W17:0000:0000
-DuPont Low Sector 18:Washington Center:132.520:W18:C:DC:CTR:ZDC:W18:0000:0000
-Woodstown (Big Apple) Sector 19:Washington Center:125.450:W19:C:DC:CTR:ZDC:W19:0000:0000
-Blackstone Sector 20:Washington Center:127.750:W20:C:DC:CTR:ZDC:W20:0000:0000
-Dominion Low Sector 21:Washington Center:112.750:W21:C:DC:CTR:ZDC:W21:0000:0000
-South Boston Low Sector 22:Washington Center:124.050:W22:C:DC:CTR:ZDC:W22:0000:0000
-Cape Charles Low Sector 23:Washington Center:132.550:W23:C:DC:CTR:ZDC:W23:0000:0000
-Cofield Low Sector 24:Washington Center:124.720:W24:C:DC:CTR:ZDC:W24:0000:0000
-New Bern (Snowbird) Sector 25:Washington Center:135.500:W25:C:DC:CTR:ZDC:W25:0000:0000
-Sampson Low Sector 26:Washington Center:135.300:W26:C:DC:CTR:ZDC:W26:0000:0000
-Liberty Low Sector 27:Washington Center:135.200:W27:C:DC:CTR:ZDC:W27:0000:0000
-Rocky Mount Low Sector 28:Washington Center:118.470:W28:C:DC:CTR:ZDC:W28:0000:0000
-Hot Springs Low Sector 29:Washington Center:134.400:W29:C:DC:CTR:ZDC:W29:0000:0000
-Valley Low Sector 30:Washington Center:127.920:W30:C:DC:CTR:ZDC:W30:0000:0000
-Azalea Low Sector 31:Washington Center:135.400:W31:C:DC:CTR:ZDC:W31:0000:0000
-Gordonsville (CLT/ATL) Sector 32:Washington Center:133.720:W32:C:DC:CTR:ZDC:W32:0000:0000
-Franklin Low Sector 33:Washington Center:132.020:W33:C:DC:CTR:ZDC:W33:0000:0000
-Norfolk High Sector 34:Washington Center:133.820:W34:C:DC:CTR:ZDC:W34:0000:0000
-Wilmington High Sector 35:Washington Center:124.020:W35:C:DC:CTR:ZDC:W35:0000:0000
-Raleigh (DC Metro) Sector 36:Washington Center:118.920:W36:C:DC:CTR:ZDC:W36:0000:0000
-Marlinton High Sector 37:Washington Center:133.020:W37:C:DC:CTR:ZDC:W37:0000:0000
-Tar River High Sector 38:Washington Center:132.220:W38:C:DC:CTR:ZDC:W38:0000:0000
-Snow Hill Super High Sector 39:Washington Center:121.370:W39:C:DC:CTR:ZDC:W39:0000:0000
-Yorktown Super High Sector 50:Washington Center:120.750:W50:C:DC:CTR:ZDC:W50:0000:0000
-Casino Low Sector 51:Washington Center:127.700:W51:C:DC:CTR:ZDC:W51:0000:0000
-Tech High Sector 52:Washington Center:133.570:W52:C:DC:CTR:ZDC:W52:0000:0000
-Kenton Low Sector 53:Washington Center:127.270:W53:C:DC:CTR:ZDC:W53:0000:0000
-Salisbury (Philly) Sector 54:Washington Center:120.970:W54:C:DC:CTR:ZDC:W54:0000:0000
-Coyle Sector 58:Washington Center:121.020:W58:C:DC:CTR:ZDC:W58:0000:0000
-Sea Isle High 59:Washington Center:133.120:W59:C:DC:CTR:ZDC:W59:0000:0000
-Montebello Sector 60:Washington Center:121.670:W60:C:DC:CTR:ZDC:W60:0000:0000
-Shenandoah Super High Sector 72:Washington Center:134.620:W72:C:DC:CTR:ZDC:W72:0000:0000
+PINION 04 HI:Washington Center:133.975:W04:C:DC:CTR:DC:04::
+    PINION 04 HI:Washington Center:133.970:W04:C:DC:CTR:DC:04::
+BAY 10 HI:Washington Center:132.275:W10:C:DC:CTR:DC:10::
+    BAY 10 HI:Washington Center:132.270:W10:C:DC:CTR:DC:10::
+CALVERT 11 LO:Washington Center:133.900:W11:C:DC:CTR:DC:11::
+BROOKE 12 HI:Washington Center:126.875:W12:C:DC:CTR:DC:12::
+    BROOKE 12 HI:Washington Center:126.870:W12:C:DC:CTR:DC:12::
+SWANN 17 LO:Washington Center:134.500:W17:C:DC:CTR:DC:17::
+DUPONT 18 HI:Washington Center:132.525:W18:C:DC:CTR:DC:18::
+    DUPONT 18 HI:Washington Center:132.520:W18:C:DC:CTR:DC:18::
+WOODSTOWN 19 HI:Washington Center:125.450:W19:C:DC:CTR:DC:19::
+IRONS 14 LO:Washington Center:132.950:W14:C:DC:CTR:DC:14::
+HOPEWELL 16 HI:Washington Center:121.875:W16:C:DC:CTR:DC:16::
+    HOPEWELL 16 HI:Washington Center:121.870:W16:C:DC:CTR:DC:16::
+BLACKSTONE 20 LO:Washington Center:127.750:W20:C:DC:CTR:DC:20::
+DOMINION 21 LO:Washington Center:118.750:W21:C:DC:CTR:DC:21::
+LIBERTY 27 LO:Washington Center:135.200:W27:C:DC:CTR:DC:27::
+RALEIGH 36 HI:Washington Center:118.925:W36:C:DC:CTR:DC:36::
+    RALEIGH 36 HI:Washington Center:118.920:W36:C:DC:CTR:DC:36::
+TAR IVER 38 HI:Washington Center:132.225:W38:C:DC:CTR:DC:38::
+    TAR IVER 38 HI:Washington Center:132.220:W38:C:DC:CTR:DC:38::
+DIXON 09 SH:Washington Center:118.825:W09:C:DC:CTR:DC:09::
+    DIXON 09 SH:Washington Center:118.820:W09:C:DC:CTR:DC:09::
+NEW BERN 25 LO:Washington Center:123.850:W25:C:DC:CTR:DC:25::
+SAMPSON 26 LO:Washington Center:135.300:W26:C:DC:CTR:DC:26::
+NORFOLK 34 HI:Washington Center:133.825:W34:C:DC:CTR:DC:34::
+    NORFOLK 34 HI:Washington Center:133.820:W34:C:DC:CTR:DC:34::
+WILMINGTON 35 HI:Washington Center:124.025:W35:C:DC:CTR:DC:35::
+    WILMINGTON 35 HI:Washington Center:124.020:W35:C:DC:CTR:DC:35::
+YORKTOWN 50 SH:Washington Center:120.750:W50:C:DC:CTR:DC:50::
+CAPE CHARLES 23 LO:Washington Center:132.550:W23:C:DC:CTR:DC:23::
+SNOW HILL 39 SH:Washington Center:121.375:W39:C:DC:CTR:DC:39::
+    SNOW HILL 39 SH:Washington Center:121.370:W39:C:DC:CTR:DC:39::
+CASINO 51 LO:Washington Center:127.700:W51:C:DC:CTR:DC:51::
+KENTON 53 LO:Washington Center:132.050:W53:C:DC:CTR:DC:53::
+SALISBURY 54 HI:Washington Center:120.975:W54:C:DC:CTR:DC:54::
+    SALISBURY 54 HI:Washington Center:120.970:W54:C:DC:CTR:DC:54::
+COYLE 58 HI:Washington Center:121.025:W58:C:DC:CTR:DC:58::
+    COYLE 58 HI:Washington Center:121.020:W58:C:DC:CTR:DC:58::
+SEA ISLE 59 HI:Washington Center:133.125:W59:C:DC:CTR:DC:59::
+    SEA ISLE 59 HI:Washington Center:133.120:W59:C:DC:CTR:DC:59::
+WAHOO 07 SH:Washington Center:121.925:W07:C:DC:CTR:DC:07::
+    WAHOO 07 SH:Washington Center:121.920:W07:C:DC:CTR:DC:07::
+SOUTH BOSTON 22 LO:Washington Center:124.050:W22:C:DC:CTR:DC:22::
+AZALEA 31 LO:Washington Center:135.400:W31:C:DC:CTR:DC:31::
+GORDONSVILLE 32 HI:Washington Center:133.725:W32:C:DC:CTR:DC:32::
+    GORDONSVILLE 32 HI:Washington Center:133.720:W32:C:DC:CTR:DC:32::
+TECH 52 HI:Washington Center:133.575:W52:C:DC:CTR:DC:52::
+    TECH 52 HI:Washington Center:133.570:W52:C:DC:CTR:DC:52::
+MONTEBELLO 60 LO:Washington Center:121.675:W60:C:DC:CTR:DC:60::
+    MONTEBELLO 60 LO:Washington Center:121.670:W60:C:DC:CTR:DC:60::
+SHENANDOAH 72 SH:Washington Center:127.925:W72:C:DC:CTR:DC:72::
+    SHENANDOAH 72 SH:Washington Center:127.920:W72:C:DC:CTR:DC:72::
+CASANOVA 02 LO:Washington Center:133.200:W02:C:DC:CTR:DC:02::
+MOOREFIELD 03 HI:Washington Center:133.275:W03:C:DC:CTR:DC:03::
+    MOOREFIELD 03 HI:Washington Center:133.270:W03:C:DC:CTR:DC:03::
+LINDEN 05 LO:Washington Center:133.550:W05:C:DC:CTR:DC:05::
+HAGERSTOWN 06 LO:Washington Center:134.150:W06:C:DC:CTR:DC:06::
+BLUE IDGE 15 LO:Washington Center:133.650:W15:C:DC:CTR:DC:15::
+HOT SPRINGS 29 LO:Washington Center:134.400:W29:C:DC:CTR:DC:29::
+MARLINTON 37 HI:Washington Center:133.025:W37:C:DC:CTR:DC:37::
+    MARLINTON 37 HI:Washington Center:133.020:W37:C:DC:CTR:DC:37::
+BRYCE 42 SH:Washington Center:118.025:W42:C:DC:CTR:DC:42::
+    BRYCE 42 SH:Washington Center:118.020:W42:C:DC:CTR:DC:42::
+ELKINS 01 LO:Washington Center:128.600:W01:C:DC:CTR:DC:01::
+ROCKY MOUNT 28 LO:Washington Center:118.475:W28:C:DC:CTR:DC:28::
+    ROCKY MOUNT 28 LO:Washington Center:118.470:W28:C:DC:CTR:DC:28::
+FRANKLIN 33 LO:Washington Center:132.025:W33:C:DC:CTR:DC:33::
+    FRANKLIN 33 LO:Washington Center:132.020:W33:C:DC:CTR:DC:33::
 ;
 POTOMAC TRACON
 ;
