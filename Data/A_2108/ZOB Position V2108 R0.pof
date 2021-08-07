@@ -532,36 +532,36 @@ ELM TRACON North:Elmira Approach:124.300:N2N:N:ELM:APP:ELM:EN:0000:0000
 ;
 ZBW SECTORS
 ;
-Milnocket High Sector 01:Boston Center:128.050:B01:C:BOS:CTR:ZBW:B01:0000:0000
-Augusta High Sector 02:Boston Center:134.950:B02:C:BOS:CTR:ZBW:B02:0000:0000
-Stewart Low Sector 05:Boston Center:134.300:B05:C:BOS:CTR:ZBW:B05:0000:0000
-Pawling Low Sector 06:Boston Center:128.100:B06:C:BOS:CTR:ZBW:B06:0000:0000
-Chester Low Sector 07:Boston Center:127.650:B07:C:BOS:CTR:ZBW:B07:0000:0000
-Watertown Low Sector 08:Boston Center:135.250:B08:C:BOS:CTR:ZBW:B08:0000:0000
-Utica High Sector 09:Boston Center:123.870:B09:C:BOS:CTR:ZBW:B09:0000:0000
-Rockdale High Sector 10:Boston Center:124.120:B10:C:BOS:CTR:ZBW:B10:0000:0000
-Surry Low Sector 15:Boston Center:124.750:B15:C:BOS:CTR:ZBW:B15:0000:0000
-Parso Low Sector 16:Boston Center:128.200:B16:C:BOS:CTR:ZBW:B16:0000:0000
-Nantucket Combined Sector 17:Boston Center:133.450:B17:C:BOS:CTR:ZBW:B17:0000:0000
-Cape Combined Sector 18:Boston Center:128.750:B18:C:BOS:CTR:ZBW:B18:0000:0000
-Danbury Low Sector 19:Boston Center:134.000:B19:C:BOS:CTR:ZBW:B19:0000:0000
-Kingston High Sector 20:Boston Center:125.570:B20:C:BOS:CTR:ZBW:B20:0000:0000
-Canan Low Sector 21:Boston Center:132.650:B21:C:BOS:CTR:ZBW:B21:0000:0000
-Albany Low Sector 22:Boston Center:121.350:B22:C:BOS:CTR:ZBW:B22:0000:0000
-Hancock Low Sector 23:Boston Center:133.250:B23:C:BOS:CTR:ZBW:B23:0000:0000
-Delancey High Sector 24:Boston Center:127.370:B24:C:BOS:CTR:ZBW:B24:0000:0000
-Hampton High Sector 31:Boston Center:124.520:B31:C:BOS:CTR:ZBW:B31:0000:0000
-Erick Low Sector 32:Boston Center:132.300:B32:C:BOS:CTR:ZBW:B32:0000:0000
-Sardi Low Sector 33:Boston Center:135.800:B33:C:BOS:CTR:ZBW:B33:0000:0000
-Providence Low Sector 34:Boston Center:124.850:B34:C:BOS:CTR:ZBW:B34:0000:0000
-Gardner Low Sector 36:Boston Center:123.750:B36:C:BOS:CTR:ZBW:B36:0000:0000
-Concord Low Sector 37:Boston Center:134.700:B37:C:BOS:CTR:ZBW:B37:0000:0000
-Athens High Sector 38:Boston Center:135.320:B38:C:BOS:CTR:ZBW:B38:0000:0000
-Cambridge High Sector 39:Boston Center:128.320:B39:C:BOS:CTR:ZBW:B39:0000:0000
-Boston High Sector 46:Boston Center:127.975:B46:C:BOS:CTR:ZBW:B46:0000:0000
-Bosox Low Sector 47:Boston Center:133.420:B47:C:BOS:CTR:ZBW:B47:0000:0000
-Montpelier Combined Sector 52:Boston Center:135.700:B52:C:BOS:CTR:ZBW:B52:0000:0000
-Plattsburgh High Sector 53:Boston Center:118.820:B53:C:BOS:CTR:ZBW:B53:0000:0000
+Millinocket 01 High:Boston Center:128.050:B01:C:BOS:CTR:ZBW:01:0000:0000
+Augusta 02 High:Boston Center:134.950:B02:C:BOS:CTR:ZBW:02:0000:0000
+Stewart 05 Low:Boston Center:134.300:B05:C:BOS:CTR:ZBW:05:0000:0000
+Pawling 06 Low:Boston Center:128.100:B06:C:BOS:CTR:ZBW:06:0000:0000
+Chester 07 Low:Boston Center:127.650:B07:C:BOS:CTR:ZBW:07:0000:0000
+Watertown 08 Low:Boston Center:135.250:B08:C:BOS:CTR:ZBW:08:0000:0000
+Utica 09 High:Boston Center:123.870:B09:C:BOS:CTR:ZBW:09:0000:0000
+Rockdale 10 Super High:Boston Center:124.120:B10:C:BOS:CTR:ZBW:10:0000:0000
+SURRY 15 Low:Boston Center:124.250:B15:C:BOS:CTR:ZBW:15:0000:0000
+PARSO 16 Low:Boston Center:128.200:B16:C:BOS:CTR:ZBW:16:0000:0000
+Nantucket 17 Low:Boston Center:133.450:B17:C:BOS:CTR:ZBW:17:0000:0000
+Cape 18 Low:Boston Center:128.750:B18:C:BOS:CTR:ZBW:18:0000:0000
+Danbury 19 Low:Boston Center:134.000:B19:C:BOS:CTR:ZBW:19:0000:0000
+Kingston 20 High:Boston Center:125.575:B20:C:BOS:CTR:ZBW:20:0000:0000
+CANAN 21 Low:Boston Center:132.650:B21:C:BOS:CTR:ZBW:21:0000:0000
+Albany 22 Low:Boston Center:121.350:B22:C:BOS:CTR:ZBW:22:0000:0000
+Hancock 23 Low:Boston Center:133.250:B23:C:BOS:CTR:ZBW:23:0000:0000
+Delancey 24 High:Boston Center:127.370:B4:C:BOS:CTR:ZBW:24:0000:0000
+Hampton 31 High:Boston Center:124.520:B31:C:BOS:CTR:ZBW:31:0000:0000
+CLIPR 32 Low:Boston Center:135.800:B32:C:BOS:CTR:ZBW:32:0000:0000
+Providence 34 Low:Boston Center:124.850:B34:C:BOS:CTR:ZBW:34:0000:0000
+Gardner 36 Low:Boston Center:123.750:B36:C:BOS:CTR:ZBW:36:0000:0000
+Concord 37 Low:Boston Center:134.700:B37:C:BOS:CTR:ZBW:37:0000:0000
+ATHENS 38 High:Boston Center:135.320:B38:C:BOS:CTR:ZBW:38:0000:0000
+Cambridge 39 High:Boston Center:128.320:B39:C:BOS:CTR:ZBW:39:0000:0000
+Boston 46 High:Boston Center:126.220:B46:C:BOS:CTR:ZBW:46:0000:0000
+BOSOX 47 Low:Boston Center:133.420:B47:C:BOS:CTR:ZBW:47:0000:0000
+Southee 49 High:Boston Center:132.300:B49:C:BOS:CTR:ZBW:49:0000:0000
+Montpelier 52 Low:Boston Center:135.700:B52:C:BOS:CTR:ZBW:52:0000:0000
+Plattsburgh 53 High:Boston Center:118.825:B53:C:BOS:CTR:ZBW:53:0000:0000
 ;
 ZBW TRACON
 ;
