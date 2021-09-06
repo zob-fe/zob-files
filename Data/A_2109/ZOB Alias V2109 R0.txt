@@ -1,9 +1,9 @@
 Cleveland ARTCC Alias 
 Created by Ryan Geckler
-Updated by Josh Burr, Leszek Kwasniowski, Eton Wallace, Michael Smith
+Updated by Josh Burr, Eton Wallace, Michael Smith
 
-<VERSION= 2102>
-<LAST UPDATE= 02/25/2020>
+<VERSION= 2109>
+<LAST UPDATE= 09/09/2021>
 
 ====================================================================================
 CHANGELOG:
@@ -78,6 +78,11 @@ VERSION 2014
 
 VERSION 2102
 - Updated procedure commands
+
+VERSION 2109
+- Minor cleanup
+- Added more vERAM commands
+
 ====================================================================================
 GENERIC CLEARANCE:
 ====================================================================================
@@ -117,20 +122,27 @@ PRE-DEPARTURE CLEARANCE:
 .pdcp .pdc1 $1 .pdc2p
 .pdcm .pdc1m $1 $2 .pdc2
 .pdcmp .pdc1m $1 $2 .pdc2p
+.pdce .pdc1e $1 $2 .pdc2
+.pdcep .pdc1e $1 $2 .pdc2p
 .amend
 
+# CLIMB VIA
 # .pdc1 (Departure Frequency)
 .pdc1 .msg $aircraft **PRE-DEPARTURE CLEARANCE START** | $time Z | CALLSIGN: $aircraft | EQUIP: $type($aircraft) | DEP: $dep | ARR: $arr | SQUAWK: $squawk | APPROVED ROUTE: $route | FINAL ALT: $cruise | ALTITUDE RESTRICTIONS: CLIMB VIA SID | DEP FREQ: $1
 
+# MAINTAIN
 # .pdc1m (Initial Altitude) (Departure Frequency)
 .pdc1m .msg $aircraft **PRE-DEPARTURE CLEARANCE START** | $time Z | CALLSIGN: $aircraft | EQUIP: $type($aircraft) | DEP: $dep | ARR: $arr | SQUAWK: $squawk | APPROVED ROUTE: $route | FINAL ALT: $cruise | ALTITUDE RESTRICTIONS: MAINTAIN $1 | DEP FREQ: $2 
 
+# CLIMB VIA EXCEPT
 # .pdc1e (Initial Altitude) (Departure Frequency)
 .pdc1e .msg $aircraft **PRE-DEPARTURE CLEARANCE START** | $time Z | CALLSIGN: $aircraft | EQUIP: $type($aircraft) | DEP: $dep | ARR: $arr | SQUAWK: $squawk | APPROVED ROUTE: $route | FINAL ALT: $cruise | ALTITUDE RESTRICTIONS: CLIMB VIA SID, EXCEPT MAINTAIN $1 | DEP FREQ: $2  
 
+# CALL FOR TAXI
 # .pdc2 (Departure Runway) (Ground Sector ID [Leave Blank for Own])
 .pdc2 PLAN RUNWAY $1 FOR DEPARTURE. CONTACT $radioname($2) ON FREQ $freq($2) FOR TAXI WITH ASSIGNED SID, SQUAWK CODE, AND CURRENT ATIS CODE ONLY. IF YOU HAVE ANY QUESTIONS OR ARE UNABLE TO ACCEPT ANY ASSIGNMENT, CONTACT ATC ON FREQUENCY $freq() | **PRE-DEPARTURE CLEARANCE END**
 
+# CALL FOR PUSH
 # .pdc2p (Departure Runway) (Ground Sector ID [Leave Blank for Own])
 .pdc2p PLAN RUNWAY $1 FOR DEPARTURE. CONTACT $radioname($2) ON FREQ $freq($2) WHEN READY FOR PUSH AND START WITH ASSIGNED SID, SQUAWK CODE, AND CURRENT ATIS CODE ONLY. IF YOU HAVE ANY QUESTIONS OR ARE UNABLE TO ACCEPT ANY ASSIGNMENT, CONTACT ATC ON FREQUENCY $freq() | **PRE-DEPARTURE CLEARANCE END**
 
@@ -354,8 +366,6 @@ MISC:
 .brb Attention all aircraft: $radioname() will be right back
 .bk Attention all aircraft: $radioname() is back.
 
-.pref .openurl https://clevelandcenter.org/routing?o=$dep&d=$arr
-
 .rsct .reloadsector
 .ras .reloadaliases
 
@@ -384,7 +394,7 @@ LOA CROSSINGS:
 .bucko Cross BUCKO at and maintain FL310.
 .lundy Cross LUNDY at and maintain FL290.
 .lizio Cross LIZIO at and maintain FL290.
-.brndn Cross BRNDN at and maintain FL290.
+.brndn Cross BRNDN at and maintain FL270.
 .ape Cross APE at and maintain FL320.
 .fbc Cross FBC at and maintain FL220.
 .essie Cross ESSIE at and maintain 10000, KCMH altimeter $altim(kcmh).
@@ -404,10 +414,32 @@ vERAM:
 .zobday .autotrack KAGC KARB KBKL KBUF KBVI KCAK KCGF KCKB KCLE KDET KDTW KERI KFNT KHLG KIAG KJST KJXN KLAN KLBE KMBS KMFD KMGW KMTC KPIT KPTK KROC KTOL KYIP KYNG
 .zobmid .autotrack KAGC KBUF KCAK KCLE KDET KDTW KLAN KPIT KROC KTOL KYIP KYNG
 
-.d21notrack .autotrack -KARB -KDET -KDTW -KPTK -KYIP
-.clenotrack .autotrack -KBKL -KCAK -KCGF -KCLE -KMFD
-.pitnotrack .autotrack -KPIT -KAGC -KBVI -KHLG
-.bufnotrack .autotrack -KBUF -KIAG
+.d21at .autotrack KARB KDET KDTW KPTK KYIP
+.d21noat .autotrack -KARB -KDET -KDTW -KPTK -KYIP
+.cleat .autotrack KBKL KCAK KCGF KCLE KMFD
+.clenoat .autotrack -KBKL -KCAK -KCGF -KCLE -KMFD
+.cakat .autotrack KCAK
+.caknoat .autotrack -KCAK 
+.mfdat .autotrack KMFD
+.mfdnoat .autotrack -KMFD
+.pitat .autotrack KPIT KAGC KBVI KHLG
+.pitnoat .autotrack -KPIT -KAGC -KBVI -KHLG
+.bufat .autotrack KBUF KIAG
+.bufnoat .autotrack -KBUF -KIAG
+.eriat .autotrack KERI
+.erinoat .autotrack -KERI
+.lanat .autotrack KFNT KJXN KLAN KMBS
+.lannoat .autotrack -KFNT -KJXN -KLAN -KMBS
+.tolat .autotrack KTOL
+.tolnoat .autotrack -KTOL
+.ckbat .autotrack KCKB KMGW
+.ckbnoat .autotrack -KCKB -KMGW
+.rocat .autotrack KROC
+.rocnoat .autotrack -KROC
+.jstat .autotrack KLBE KJST
+.jstnoat .autotrack -KLBE -KJST
+.yngat .autotrack KYNG
+.yngnoat .autotrack -KYNG
 
 ====================================================================================
 LOW AIRWAYS:
@@ -720,7 +752,6 @@ PROCEDURES:
 ====================================================================================
 
 .IDS .openurl https://clevelandcenter.org/ids/
-
 
 ====================================================================================
 FLOW:

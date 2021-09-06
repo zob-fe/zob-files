@@ -78,9 +78,6 @@ Palmer Ultra High Sector 58:Cleveland Center:121.070:58:C:CLE:CTR:PAR:58:5701:57
 Keystone Ultra High Sector 64:Cleveland Center:134.470:64:C:CLE:CTR:KEY:64:5701:5777
 Jamestown Ultra High Sector 79:Cleveland Center:132.920:79:C:CLE:CTR:JHW:79:5701:5777
 ;
-Traffic Management Unit:Cleveland Center:199.997:TMU:C:CLE:CTR:ZOB:TMU:5701:5777
-;
-;
 ; D21/DTW Positions
 Ann Arbor Ground:Ann Arbor Ground:121.600:5D:-:ARB:GND:ARB:GND:5101:5177
 Ann Arbor Tower:Ann Arbor Tower:120.300:5E:-:ARB:TWR:ARB:TWR:5101:5177
@@ -116,8 +113,6 @@ Detroit Third Final:Detroit Approach:123.900:4Z:Z:DTW:APP:D21:4Z:4101:4177
 Pontiac Clearance:Pontiac Clearance:118.250:4O:-:PTK:DEL:PTK:DEL:6001:6077
 Pontiac Ground:Pontiac Ground:121.900:4Q:-:PTK:GND:PTK:GND:6001:6077
 Pontiac Tower:Pontiac Tower:120.500:4R:-:PTK:TWR:PTK:TWR:6001:6077
-Windsor Ground:Windsor Ground:121.700:YG:-:YQG:GND:YQG:GND:5101:5177
-Windsor Tower:Windsor Tower:124.700:YT:-:YQG:TWR:YQG:TWR:5101:5177
 Willow Run Ground:Willow Run Ground:119.970:4K:-:YIP:GND:YIP:GND:5101:5177
 Willow Run Tower:Willow Run Tower:125.270:4N:-:YIP:TWR:YIP:TWR:5101:5177
 ;
@@ -126,26 +121,23 @@ Willow Run Tower:Willow Run Tower:125.270:4N:-:YIP:TWR:YIP:TWR:5101:5177
 Akron-Canton Clearance:Akron-Canton Clearance:132.050:2J:-:CAK:DEL:CAK:DEL:6001:6077
 Akron-Canton Ground:Akron-Canton Ground:121.700:2H:-:CAK:GND:CAK:GND:6001:6077
 Akron-Canton Tower:Akron-Canton Tower:134.750:2K:-:CAK:TWR:CAK:TWR:6001:6077
-Cleveland South Satellite Radar:Cleveland Approach:118.600:2S:S:CLE:APP:CLE:2S:6001:6077
-  Cleveland South Satellite Radar:Cleveland Approach:118.600:2S:S:CAK:APP:CLE:2S:6001:6077
-Cleveland East Satellite Radar:Cleveland Approach:125.500:2E:E:CLE:APP:CLE:2E:6001:6077
-  Cleveland East Satellite Radar:Cleveland Approach:125.500:2E:E:CAK:APP:CLE:2E:6001:6077
+Cleveland South Satellite Radar:Cleveland Approach:118.600:2S:S:CAK:APP:CLE:2S:6001:6077
+Cleveland East Satellite Radar:Cleveland Approach:125.500:2E:E:CAK:APP:CLE:2E:6001:6077
 County Ground:County Ground:121.850:2U:-:CGF:GND:CGF:GND:7401:7477
 County Tower:County Tower:118.500:2Y:-:CGF:TWR:CGF:TWR:7401:7477
 Cleveland Clearance:Cleveland Clearance:125.050:2C:-:CLE:DEL:CLE:DEL:7401:7477
 Cleveland Ground:Cleveland Ground:121.700:2G:-:CLE:GND:CLE:GND:7401:7477
-Cleveland Tower:Cleveland Tower:124.500:2T:T:CLE:TWR:CLE:TWR:7401:7477
+Cleveland Tower:Cleveland Tower:124.500:2L:L:CLE:TWR:CLE:TWR:7401:7477
 Cleveland Feeder Radar:Cleveland Approach:124.000:2A:A:CLE:APP:CLE:2A:7401:7477
 Cleveland Final Radar:Cleveland Approach:119.620:2F:F:CLE:APP:CLE:2F:7401:7477
 Cleveland North Departure Radar:Cleveland Departure:128.250:2D:D:CLE:DEP:CLE:2D:7401:7477
-Cleveland South Departure Radar:Cleveland Departure:135.870:2S:S:CLE:DEP:CLE:2S:7401:7477
+Cleveland South Departure Radar:Cleveland Departure:135.870:2R:R:CLE:DEP:CLE:2R:7401:7477
 Cleveland North Satellite Radar:Cleveland Approach:125.350:2N:N:CLE:APP:CLE:2N:7401:7477
 Lakefront Ground:Lakefront Ground:121.900:2B:-:BKL:GND:BKL:GND:7401:7477
 Lakefront Tower:Lakefront Tower:124.300:2L:-:BKL:TWR:BKL:TWR:7401:7477
-Mansfield Ground:Mansfield Ground:121.800:2M:-:MFD:GND:MFD:GND:5101:5177
-Mansfield Tower:Mansfield Tower:119.800:2P:-:MFD:TWR:MFD:TWR:5101:5177
-Cleveland West Satellite Radar:Cleveland Approach:124.200:2W:W:CLE:APP:CLE:2W:5101:5177
-  Cleveland West Satellite Radar:Cleveland Approach:124.200:2W:W:MFD:APP:CLE:2W:5101:5177
+Mansfield Ground:Mansfield Ground:121.800:2P:-:MFD:GND:MFD:GND:5101:5177
+Mansfield Tower:Mansfield Tower:119.800:2M:-:MFD:TWR:MFD:TWR:5101:5177
+Cleveland West Satellite Radar:Cleveland Approach:124.200:2W:W:MFD:APP:CLE:2W:5101:5177
 ;
 ; PIT Positions
 ;
@@ -176,8 +168,7 @@ Buffalo West Approach:Buffalo Approach:126.500:1W:W:BUF:APP:BUF:1W:6001:6077
 Erie Clearance:Erie Clearance:126.800:1X:-:ERI:DEL:ERI:DEL:6001:6077
 Erie Ground:Erie Ground:121.900:1Y:-:ERI:GND:ERI:GND:6001:6077
 Erie Tower:Erie Tower:118.100:1Z:-:ERI:TWR:ERI:TWR:6001:6077
-Buffalo Approach (Erie TRSA):Buffalo Approach:121.000:1R:R:BUF:APP:BUF:1R:6001:6077
-  Buffalo Approach (Erie TRSA):Buffalo Approach:121.000:1R:R:ERI:APP:BUF:1R:6001:6077
+Buffalo Approach (Erie TRSA):Buffalo Approach:121.000:1X:X:ERI:APP:BUF:1X:6001:6077
 Niagara Clearance:Niagara Clearance:119.250:1P:-:IAG:DEL:IAG:DEL:6001:6077
 Niagara Ground:Niagara Ground:125.300:1O:-:IAG:GND:IAG:GND:6001:6077
 Niagara Tower:Niagara Tower:118.500:1N:-:IAG:TWR:IAG:TWR:6001:6077
@@ -187,25 +178,21 @@ Niagara Tower:Niagara Tower:118.500:1N:-:IAG:TWR:IAG:TWR:6001:6077
 Flint Clearance:Flint Clearance:121.750:5X:-:FNT:DEL:FNT:DEL:6001:6077
 Flint Ground:Flint Ground:121.900:5Y:-:FNT:GND:FNT:GND:6001:6077
 Flint Tower:Flint Tower:126.300:5Z:-:FNT:TWR:FNT:TWR:6001:6077
-Great Lakes Buick Sector (Flint East):Great Lakes Approach:118.800:5U:U:LAN:APP:LAN:5U:6001:6077
-  Great Lakes Buick Sector (Flint East):Great Lakes Approach:118.800:5U:U:FNT:APP:LAN:5U:6001:6077
-Great Lakes Olds Sector (Flint West):Great Lakes Approach:128.550:5F:F:LAN:APP:LAN:5F:6001:6077
-  Great Lakes Olds Sector (Flint West):Great Lakes Approach:128.550:5F:F:FNT:APP:LAN:5F:6001:6077
+Great Lakes Buick Sector (Flint East):Great Lakes Approach:118.800:5B:B:FNT:APP:LAN:5B:6001:6077
+Great Lakes Olds Sector (Flint West):Great Lakes Approach:128.550:5O:O:FNT:APP:LAN:5O:6001:6077
 Jackson Ground:Jackson Ground:121.900:5W:-:JXN:GND:JXN:GND:5101:5177
 Jackson Tower:Jackson Tower:128.470:5V:-:JXN:TWR:JXN:TWR:5101:5177
-Great Lakes Reynolds Sector (Jackson):Great Lakes Approach:127.300:5R:R:LAN:APP:LAN:APP:5101:5177
-  Great Lakes Reynolds Sector (Jackson):Great Lakes Approach:127.300:5R:R:JXN:APP:LAN:APP:5101:5177
+Great Lakes Reynolds Sector (Jackson):Great Lakes Approach:127.300:5Y:Y:LAN:APP:LAN:5Y:5101:5177
+Great Lakes Reynolds Sector (Jackson):Great Lakes Approach:127.300:5Y:Y:JXN:APP:LAN:5Y:5101:5177
 Lansing Clearance:Lansing Clearance:123.670:5C:-:LAN:DEL:LAN:DEL:6001:6077
 Lansing Ground:Lansing Ground:121.900:5G:-:LAN:GND:LAN:GND:6001:6077
 Lansing Tower:Lansing Tower:119.900:5T:-:LAN:TWR:LAN:TWR:6001:6077
-Great Lakes Capitol Sector (Lansing):Great Lakes Approach:118.650:5A:A:LAN:APP:LAN:APP:6001:6077
+Great Lakes Capitol Sector (Lansing):Great Lakes Approach:118.650:5L:L:LAN:APP:LAN:5L:6001:6077
 Saginaw Clearance:Saginaw Clearance:121.850:5S:-:MBS:DEL:MBS:DEL:6001:6077
 Saginaw Ground:Saginaw Ground:121.700:5P:-:MBS:GND:MBS:GND:6001:6077
 Saginaw Tower:Saginaw Tower:120.100:5Q:-:MBS:TWR:MBS:TWR:6001:6077
-Great Lakes Bay Approach (Saginaw SE):Great Lakes Approach:120.950:5B:B:LAN:APP:LAN:5B:6001:6077
-  Great Lakes Bay Approach (Saginaw SE):Great Lakes Approach:120.950:5B:B:MBS:APP:LAN:5B:6001:6077
-Great Lakes Chippewa Approach (Saginaw NW):Great Lakes Approach:126.450:5H:H:LAN:APP:LAN:5N:6001:6077
-  Great Lakes Chippewa Approach (Saginaw NW):Great Lakes Approach:126.450:5H:H:MBS:APP:LAN:5N:6001:6077
+Great Lakes Bay Approach (Saginaw SE):Great Lakes Approach:120.950:5A:A:MBS:APP:LAN:5A:6001:6077
+Great Lakes Chippewa Approach (Saginaw NW):Great Lakes Approach:126.450:5H:H:MBS:APP:LAN:5H:6001:6077
 ;
 ; TOL Positions
 ;
@@ -323,14 +310,14 @@ PMM High Sector 25:Chicago Center:126.120:G25:C:CHI:CTR:ZAU:G25:0000:0000
 ;
 ZAU TRACONS
 ;
-Great Lakes Bells Sector:Great Lakes Approach:119.200:C1E:E:AZO:APP:AZO:C1E:0000:0000
-Great Lakes Griffin Sector:Great Lakes Approach:128.400:C1G:G:AZO:APP:AZO:C1G:0000:0000
-Great Lakes Bronco Sector:Great Lakes Approach:121.200:C1R:R:AZO:APP:AZO:C1R:0000:0000
-Great Lakes Lumbertown Sector:Great Lakes Approach:119.800:C1N:N:AZO:APP:AZO:C1N:0000:0000
-Great Lakes Whitecap Sector:Great Lakes Approach:124.600:C1W:W:AZO:APP:AZO:C1W:0000:0000
-Great Lakes Shoreline Sector:Great Lakes Approach:133.820:C1S:S:AZO:APP:AZO:C1S:0000:0000
-Fort Wayne East Sector:Fort Wayne Approach:127.200:C2E:E:FWA:APP:FWA:C2E:0000:0000
-Fort Wayne West Sector:Fort Wayne Approach:132.150:C2W:W:FWA:APP:FWA:C2W:0000:0000
+Great Lakes Bells Sector:Great Lakes Approach:119.200:G1E:E:AZO:APP:AZO:G1E:0000:0000
+Great Lakes Griffin Sector:Great Lakes Approach:128.400:G1G:G:AZO:APP:AZO:G1G:0000:0000
+Great Lakes Bronco Sector:Great Lakes Approach:121.200:G1R:R:AZO:APP:AZO:G1R:0000:0000
+Great Lakes Lumbertown Sector:Great Lakes Approach:119.800:G1N:N:AZO:APP:AZO:G1N:0000:0000
+Great Lakes Whitecap Sector:Great Lakes Approach:124.600:G1W:W:AZO:APP:AZO:G1W:0000:0000
+Great Lakes Shoreline Sector:Great Lakes Approach:133.820:G1S:S:AZO:APP:AZO:G1S:0000:0000
+Fort Wayne East Sector:Fort Wayne Approach:127.200:G2E:E:FWA:APP:FWA:G2E:0000:0000
+Fort Wayne West Sector:Fort Wayne Approach:132.150:G2W:W:FWA:APP:FWA:G2W:0000:0000
 ;
 ZID SECTORS
 ;
@@ -532,36 +519,36 @@ ELM TRACON North:Elmira Approach:124.300:N2N:N:ELM:APP:ELM:EN:0000:0000
 ;
 ZBW SECTORS
 ;
-Milnocket High Sector 01:Boston Center:128.050:B01:C:BOS:CTR:ZBW:B01:0000:0000
-Augusta High Sector 02:Boston Center:134.950:B02:C:BOS:CTR:ZBW:B02:0000:0000
-Stewart Low Sector 05:Boston Center:134.300:B05:C:BOS:CTR:ZBW:B05:0000:0000
-Pawling Low Sector 06:Boston Center:128.100:B06:C:BOS:CTR:ZBW:B06:0000:0000
-Chester Low Sector 07:Boston Center:127.650:B07:C:BOS:CTR:ZBW:B07:0000:0000
-Watertown Low Sector 08:Boston Center:135.250:B08:C:BOS:CTR:ZBW:B08:0000:0000
-Utica High Sector 09:Boston Center:123.870:B09:C:BOS:CTR:ZBW:B09:0000:0000
-Rockdale High Sector 10:Boston Center:124.120:B10:C:BOS:CTR:ZBW:B10:0000:0000
-Surry Low Sector 15:Boston Center:124.750:B15:C:BOS:CTR:ZBW:B15:0000:0000
-Parso Low Sector 16:Boston Center:128.200:B16:C:BOS:CTR:ZBW:B16:0000:0000
-Nantucket Combined Sector 17:Boston Center:133.450:B17:C:BOS:CTR:ZBW:B17:0000:0000
-Cape Combined Sector 18:Boston Center:128.750:B18:C:BOS:CTR:ZBW:B18:0000:0000
-Danbury Low Sector 19:Boston Center:134.000:B19:C:BOS:CTR:ZBW:B19:0000:0000
-Kingston High Sector 20:Boston Center:125.570:B20:C:BOS:CTR:ZBW:B20:0000:0000
-Canan Low Sector 21:Boston Center:132.650:B21:C:BOS:CTR:ZBW:B21:0000:0000
-Albany Low Sector 22:Boston Center:121.350:B22:C:BOS:CTR:ZBW:B22:0000:0000
-Hancock Low Sector 23:Boston Center:133.250:B23:C:BOS:CTR:ZBW:B23:0000:0000
-Delancey High Sector 24:Boston Center:127.370:B24:C:BOS:CTR:ZBW:B24:0000:0000
-Hampton High Sector 31:Boston Center:124.520:B31:C:BOS:CTR:ZBW:B31:0000:0000
-Erick Low Sector 32:Boston Center:132.300:B32:C:BOS:CTR:ZBW:B32:0000:0000
-Sardi Low Sector 33:Boston Center:135.800:B33:C:BOS:CTR:ZBW:B33:0000:0000
-Providence Low Sector 34:Boston Center:124.850:B34:C:BOS:CTR:ZBW:B34:0000:0000
-Gardner Low Sector 36:Boston Center:123.750:B36:C:BOS:CTR:ZBW:B36:0000:0000
-Concord Low Sector 37:Boston Center:134.700:B37:C:BOS:CTR:ZBW:B37:0000:0000
-Athens High Sector 38:Boston Center:135.320:B38:C:BOS:CTR:ZBW:B38:0000:0000
-Cambridge High Sector 39:Boston Center:128.320:B39:C:BOS:CTR:ZBW:B39:0000:0000
-Boston High Sector 46:Boston Center:127.975:B46:C:BOS:CTR:ZBW:B46:0000:0000
-Bosox Low Sector 47:Boston Center:133.420:B47:C:BOS:CTR:ZBW:B47:0000:0000
-Montpelier Combined Sector 52:Boston Center:135.700:B52:C:BOS:CTR:ZBW:B52:0000:0000
-Plattsburgh High Sector 53:Boston Center:118.820:B53:C:BOS:CTR:ZBW:B53:0000:0000
+Millinocket 01 High:Boston Center:128.050:B01:C:BOS:CTR:ZBW:01:0000:0000
+Augusta 02 High:Boston Center:134.950:B02:C:BOS:CTR:ZBW:02:0000:0000
+Stewart 05 Low:Boston Center:134.300:B05:C:BOS:CTR:ZBW:05:0000:0000
+Pawling 06 Low:Boston Center:128.100:B06:C:BOS:CTR:ZBW:06:0000:0000
+Chester 07 Low:Boston Center:127.650:B07:C:BOS:CTR:ZBW:07:0000:0000
+Watertown 08 Low:Boston Center:135.250:B08:C:BOS:CTR:ZBW:08:0000:0000
+Utica 09 High:Boston Center:123.870:B09:C:BOS:CTR:ZBW:09:0000:0000
+Rockdale 10 Super High:Boston Center:124.120:B10:C:BOS:CTR:ZBW:10:0000:0000
+SURRY 15 Low:Boston Center:124.250:B15:C:BOS:CTR:ZBW:15:0000:0000
+PARSO 16 Low:Boston Center:128.200:B16:C:BOS:CTR:ZBW:16:0000:0000
+Nantucket 17 Low:Boston Center:133.450:B17:C:BOS:CTR:ZBW:17:0000:0000
+Cape 18 Low:Boston Center:128.750:B18:C:BOS:CTR:ZBW:18:0000:0000
+Danbury 19 Low:Boston Center:134.000:B19:C:BOS:CTR:ZBW:19:0000:0000
+Kingston 20 High:Boston Center:125.575:B20:C:BOS:CTR:ZBW:20:0000:0000
+CANAN 21 Low:Boston Center:132.650:B21:C:BOS:CTR:ZBW:21:0000:0000
+Albany 22 Low:Boston Center:121.350:B22:C:BOS:CTR:ZBW:22:0000:0000
+Hancock 23 Low:Boston Center:133.250:B23:C:BOS:CTR:ZBW:23:0000:0000
+Delancey 24 High:Boston Center:127.370:B24:C:BOS:CTR:ZBW:24:0000:0000
+Hampton 31 High:Boston Center:124.520:B31:C:BOS:CTR:ZBW:31:0000:0000
+CLIPR 32 Low:Boston Center:135.800:B32:C:BOS:CTR:ZBW:32:0000:0000
+Providence 34 Low:Boston Center:124.850:B34:C:BOS:CTR:ZBW:34:0000:0000
+Gardner 36 Low:Boston Center:123.750:B36:C:BOS:CTR:ZBW:36:0000:0000
+Concord 37 Low:Boston Center:134.700:B37:C:BOS:CTR:ZBW:37:0000:0000
+ATHENS 38 High:Boston Center:135.320:B38:C:BOS:CTR:ZBW:38:0000:0000
+Cambridge 39 High:Boston Center:128.320:B39:C:BOS:CTR:ZBW:39:0000:0000
+Boston 46 High:Boston Center:126.220:B46:C:BOS:CTR:ZBW:46:0000:0000
+BOSOX 47 Low:Boston Center:133.420:B47:C:BOS:CTR:ZBW:47:0000:0000
+Southee 49 High:Boston Center:132.300:B49:C:BOS:CTR:ZBW:49:0000:0000
+Montpelier 52 Low:Boston Center:135.700:B52:C:BOS:CTR:ZBW:52:0000:0000
+Plattsburgh 53 High:Boston Center:118.825:B53:C:BOS:CTR:ZBW:53:0000:0000
 ;
 ZBW TRACON
 ;
