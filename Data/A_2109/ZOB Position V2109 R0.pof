@@ -1,10 +1,12 @@
-; VATSIM Cleveland (ZOB) Position File
-; www.clevelandcenter.org
-;
-; FE Notes - SHP - 28SEP19
-; Maintained in ZOB_POF_FILE.xlsx.  "WorkingSheet" is parsed for ease of data handling.  "ExportSheet" is concatenated and ready for copy-paste of values to a POF file
-; Use caution when adding/remove lines to the WorkingSheet.  Ensure a matching move is made on the export sheet and no "#REF" pop up
-; When ready to export, suggesting auditing the formula on the first data line, then copy-pasting the formula down through the max line number required.
+; -------------------------
+; VATSIM CLEVELAND ARTCC
+; POSITION FILE
+; AIRAC CYCLE: 2109
+; LAST MODIFIED: SEP09 2021
+; FACILITY ENGINEER: Michael Smith
+; For use on VATSIM Network only. Use on POSCON prohibited.
+; Not for real world navigation
+; -------------------------
 ;
 ; POF File Formatting
 ;   - from ASRC documentation (retrieved 7/6/2019) www.asrc.info/ASRC%20Documentation/Configuration.html

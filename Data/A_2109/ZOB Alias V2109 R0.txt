@@ -1,9 +1,12 @@
-Cleveland ARTCC Alias 
-Created by Ryan Geckler
-Updated by Josh Burr, Eton Wallace, Michael Smith
-
-<VERSION= 2109>
-<LAST UPDATE= 09/09/2021>
+; -------------------------
+; VATSIM CLEVELAND ARTCC
+; ALIAS FILE
+; AIRAC CYCLE: 2109
+; LAST MODIFIED: SEP09 2021
+; FACILITY ENGINEER: Michael Smith
+; For use on VATSIM Network only. Use on POSCON prohibited.
+; Not for real world navigation
+; -------------------------
 
 ====================================================================================
 CHANGELOG:
