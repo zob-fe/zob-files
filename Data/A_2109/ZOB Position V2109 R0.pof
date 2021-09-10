@@ -589,6 +589,8 @@ Toronto North Departure:Toronto Departure:127.570:YND:D:CYYZ:DEP:CYYZ:YND:0000:0
 Toronto South Departure:Toronto Departure:128.800:YSD:D:CYYZ:DEP:CYYZ:YSD:0000:0000
 Toronto East Terminal:Toronto Terminal:128.270:YES:S:CYYZ:DEP:CYYZ:YES:0000:0000
 Toronto West Terminal:Toronto Terminal:119.300:YWS:S:CYYZ:DEP:CYYZ:YWS:0000:0000
+Windsor Ground:Windsor Ground:121.700:YG:-:CYQG:GND:YQG:GND:0000:0000
+Windsor Tower:Windsor Tower:124.700:YT:-:CYQG:TWR:YQG:TWR:0000:0000
 ; 
 ; **** SPECIALS ***
 ;
