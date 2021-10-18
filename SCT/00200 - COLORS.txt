@@ -1,0 +1,13 @@
+#define ARTCCH 8421376 
+#define ARTCCL 325441
+;GEO
+#define runway 65280
+#define apron 5395026
+#define taxiway 16776960
+#define c_coast 3284480
+;LABELS
+#define rwy 65290
+#define term 16777215
+#define taxi 16777215
+#define text 255
+;
