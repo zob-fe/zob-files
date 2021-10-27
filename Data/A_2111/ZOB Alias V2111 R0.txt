@@ -1,8 +1,8 @@
 ; -------------------------
 ; VATSIM CLEVELAND ARTCC
 ; ALIAS FILE
-; AIRAC CYCLE: 2109
-; LAST MODIFIED: SEP09 2021
+; AIRAC CYCLE: 2111
+; LAST MODIFIED: NOV04 2021
 ; FACILITY ENGINEER: Michael Smith
 ; For use on VATSIM Network only. Use on POSCON prohibited.
 ; Not for real world navigation
