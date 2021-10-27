@@ -563,37 +563,61 @@ Rome Radar:Syracuse Approach:127.420:B1U:U:SYR:APP:SYR:RR:0000:0000
 ;
 ZYZ SECTORS
 ;
-Toronto Centralia Sector:Toronto Centre:125.770:YZ:C:TOR:CTR:ZYZ:YZ:0000:0000
-  Toronto Centralia Sector:Toronto Centre:125.775:YZ:C:TOR:CTR:ZYZ:YZ:0000:0000
-Toronto Lucan Sector:Toronto Centre:135.820:YLU:C:TOR:CTR:ZYZ:YLU:0000:0000
-Toronto Midland Sector:Toronto Centre:124.370:YMI:C:TOR:CTR:ZYZ:YMI:0000:0000
-Toronto Wiarton Sector:Toronto Centre:132.570:YVV:C:TOR:CTR:ZYZ:YVV:0000:0000
-Toronto Sault Ste Marie High Sector:Toronto Centre:124.070:YSH:C:TOR:CTR:ZYZ:YSH:0000:0000
-Toronto Killaloe Sector:Toronto Centre:121.220:YXI:C:TOR:CTR:ZYZ:YXI:0000:0000
-Toronto Picton Sector:Toronto Centre:124.670:YPI:C:TOR:CTR:ZYZ:YPI:0000:0000
-Toronto Barrie Sector:Toronto Centre:134.570:YBA:C:TOR:CTR:ZYZ:YBA:0000:0000
-Toronto London Sector:Toronto Centre:135.300:YKF:C:TOR:CTR:ZYZ:YKF:0000:0000
-Toronto Hamilton Sector:Toronto Centre:128.270:YHM:C:TOR:CTR:ZYZ:YHM:0000:0000
-Toronto Grimsby Sector:Toronto Centre:133.300:YGR:C:TOR:CTR:ZYZ:YGR:0000:0000
-Toronto Simcoe Sector:Toronto Centre:127.000:YSI:C:TOR:CTR:ZYZ:YSI:0000:0000
-Toronto East Radar Sector:Toronto Centre:124.920:YER:C:TOR:CTR:ZYZ:YER:0000:0000
-Toronto North Bay Sector:Toronto Centre:127.250:YYB:C:TOR:CTR:ZYZ:YYB:0000:0000
-Toronto Sault Ste Marie Low Sector:Toronto Centre:132.650:YSL:C:TOR:CTR:ZYZ:YSL:0000:0000
-Toronto Cobalt Sector:Toronto Centre:133.050:YCB:C:TOR:CTR:ZYZ:YCB:0000:0000
-Toronto Timmins Sector:Toronto Centre:128.300:YTS:C:TOR:CTR:ZYZ:YTS:0000:0000
-Toronto Oakville Sector:Toronto Centre:134.920:YOV:C:TOR:CTR:ZYZ:YOV:0000:0000
+Toronto Centre HU:Toronto Centre:126.175:YHU:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre HU:Toronto Centre:126.170:YHU:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre MI:Toronto Centre:124.375:YMI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre MI:Toronto Centre:124.370:YMI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre LU:Toronto Centre:135.825:YLU:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre LU:Toronto Centre:135.820:YLU:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre OV:Toronto Centre:134.925:YOV:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre OV:Toronto Centre:134.920:YOV:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre CE:Toronto Centre:125.775:YCE:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre CE:Toronto Centre:125.770:YCE:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre XI:Toronto Centre:121.225:YXI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre XI:Toronto Centre:121.220:YXI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre PI:Toronto Centre:124.675:YPI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre PI:Toronto Centre:124.670:YPI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre BA:Toronto Centre:134.575:YBA:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre BA:Toronto Centre:134.570:YBA:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre TS:Toronto Centre:128.300:YTS:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre YB:Toronto Centre:127.250:YYB:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre RU:Toronto Centre:133.975:YRU:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre RU:Toronto Centre:133.970:YRU:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre NR:Toronto Centre:120.725:YNR:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre NR:Toronto Centre:120.720:YNR:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre SH:Toronto Centre:134.425:YSH:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre SH:Toronto Centre:134.420:YSH:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre RA:Toronto Centre:135.400:YRA:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre SL:Toronto Centre:132.650:YSL:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre VV:Toronto Centre:132.575:YVV:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre VV:Toronto Centre:132.570:YVV:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre SI:Toronto Centre:127.000:YSI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre ER:Toronto Centre:124.925:YER:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre ER:Toronto Centre:124.920:YER:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre CN:Toronto Centre:135.050:YCN:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre KF:Toronto Centre:135.625:YKF:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre KF:Toronto Centre:135.620:YKF:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre HM:Toronto Centre:132.475:YHM:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre HM:Toronto Centre:132.470:YHM:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centre GR:Toronto Centre:133.300:YGR:C:TOR:CTR:TOR:CTR:0000:0000
 ;
 ZYZ TRACON
 ;
-Toronto 1 Approach:Toronto Arrival:132.800:Y1A:A:CYYZ:APP:CYYZ:Y1A:0000:0000
-Toronto 2 Approach:Toronto Arrival:124.470:Y2A:A:CYYZ:APP:CYYZ:Y2A:0000:0000
-Toronto 3 Approach:Toronto Arrival:125.400:Y3A:A:CYYZ:APP:CYYZ:Y3A:0000:0000
-Toronto North Departure:Toronto Departure:127.570:YND:D:CYYZ:DEP:CYYZ:YND:0000:0000
-Toronto South Departure:Toronto Departure:128.800:YSD:D:CYYZ:DEP:CYYZ:YSD:0000:0000
-Toronto East Terminal:Toronto Terminal:128.270:YES:S:CYYZ:DEP:CYYZ:YES:0000:0000
-Toronto West Terminal:Toronto Terminal:119.300:YWS:S:CYYZ:DEP:CYYZ:YWS:0000:0000
-Windsor Ground:Windsor Ground:121.700:YG:-:CYQG:GND:YQG:GND:0000:0000
-Windsor Tower:Windsor Tower:124.700:YT:-:CYQG:TWR:YQG:TWR:0000:0000
+Toronto 1 Arrival:Toronto Arrival:132.800:YAA:A:CYYZ:APP:CYYZ:APP:0000:0000
+Toronto 1 Arrival:Toronto Arrival:128.800:YAA:A:CYYZ:APP:CYYZ:APP:0000:0000
+Toronto 2 Arrival:Toronto Arrival:124.475:YAB:B:CYYZ:APP:CYYZ:APP:0000:0000
+Toronto 2 Arrival:Toronto Arrival:124.470:YAB:B:CYYZ:APP:CYYZ:APP:0000:0000
+Toronto 3 Arrival:Toronto Arrival:125.400:YAC:C:CYYZ:APP:CYYZ:APP:0000:0000
+Toronto 4 Arrival:Toronto Arrival:134.175:YXX:X:CYYZ:APP:CYYZ:APP:0000:0000
+Toronto 4 Arrival:Toronto Arrival:134.170:YXX:X:CYYZ:APP:CYYZ:APP:0000:0000
+Toronto North Departure:Toronto Departure:127.575:YND:N:CYYZ:DEP:CYYZ:DEP:0000:0000
+Toronto North Departure:Toronto Departure:127.570:YND:N:CYYZ:DEP:CYYZ:DEP:0000:0000
+Toronto South Departure:Toronto Departure:128.800:YSD:S:CYYZ:DEP:CYYZ:DEP:0000:0000
+Toronto Airports WS:Toronto Terminal:119.300:YWS::CYYZ:DEP:CYYZ:DEP:0000:0000
+Toronto Airports ES:Toronto Terminal:133.400:YES::CYYZ:DEP:CYYZ:DEP:0000:0000
+Toronto Airports XU:Toronto Terminal:135.300:YXU::CYXU:APP:CYXU:APP:0000:0000
+Windsor Tower:Windsor Tower:124.700:QG::CYQG:TWR:CYQG:TWR:0000:0000
+Windsor Ground:Windsor Ground:121.700:GG::CYQG:GND:CYQG:GND:0000:0000
 ; 
 ; **** SPECIALS ***
 ;
