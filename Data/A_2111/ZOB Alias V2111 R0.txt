@@ -243,8 +243,8 @@ HANDOFF:
 .lmazdc leaving my airspace, Washington Center offline, radar services terminated, frequency change approved.
 .lmazau leaving my airspace, Chicago Center offline, radar services terminated, frequency change approved.
 .lmazid leaving my airspace, Indianapolis Center offline, radar services terminated, frequency change approved.
-.lmazyz leaving my airspace, Toronto Center offline, radar services terminated, frequency change approved.
-.lmazmp leaving my airspace, Minneapolis center offline, radar services terminated, frequency change approved.
+.lmazyz leaving my airspace, Toronto Centre offline, radar services terminated, frequency change approved.
+.lmazmp leaving my airspace, Minneapolis Center offline, radar services terminated, frequency change approved.
 
 ====================================================================================
 RADAR:
