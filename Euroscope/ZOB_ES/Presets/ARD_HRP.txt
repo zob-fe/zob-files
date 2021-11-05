@@ -1,0 +1,270 @@
+ABE_DEL:Default
+ABE_GND:Default
+ABE_N_APP:Default
+ABE_N_APP:Default
+ABE_S_APP:Default
+ABE_TWR:Default
+ACY_APP:Default
+ARD22_APP:4P - NY_APP (128.550)
+ARD4_APP:4P - NY_APP (128.550)
+AVP_APP:Default
+BGM_APP:Default
+BOS_CTR:Default
+CAT_APP:Default
+CLE_CTR:Default
+DC_APP:Default
+DC_CTR:Default
+DOV_APP:Default
+ELM_APP:Default
+EWR_DEL:4P - NY_APP (128.550)
+EWR_GND:4P - NY_APP (128.550)
+EWR_TWR:4P - NY_APP (128.550)
+EWR_TWR:4P - NY_APP (128.550)
+EWR_TWR:4P - NY_APP (128.550)
+EWR_TWR:4P - NY_APP (128.550)
+EWR_TWR:4P - NY_APP (128.550)
+EWR_TWR:4P - NY_APP (128.550)
+ILG_TWR:Default
+ISP_APP:Default
+JFK_APP:Default
+JFK_TWR:Default
+JFK_TWR:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+KEN_DEP:Default
+LGA_DEL:4P - NY_APP (128.550)
+LGA_EMP_APP:4P - NY_APP (128.550)
+LGA_EMP_APP:4P - NY_APP (128.550)
+LGA_GND:4P - NY_APP (128.550)
+LGA_HRP_APP:4P - NY_APP (128.550)
+LGA_HRP_APP:4P - NY_APP (128.550)
+LGA_HRP_APP:4P - NY_APP (128.550)
+LGA_LFI_APP:4P - NY_APP (128.550)
+LGA_LFI_APP:4P - NY_APP (128.550)
+LGA_NBI_APP:4P - NY_APP (128.550)
+LGA_NBI_APP:4P - NY_APP (128.550)
+LGA_TWR:4P - NY_APP (128.550)
+LGA_TWR_EASTRVR:4P - NY_APP (128.550)
+LGA_TWR_FLUSHING:4P - NY_APP (128.550)
+LGA_TWR_HUDSON:4P - NY_APP (128.550)
+LGA_TWR_THROGS:4P - NY_APP (128.550)
+LNO_DEP:4P - NY_APP (128.550)
+LSO_DEP:4P - NY_APP (128.550)
+LSO_DEP:4P - NY_APP (128.550)
+MDT_APP:Default
+MET22_APP:4P - NY_APP (128.550)
+MET22_APP:4P - NY_APP (128.550)
+MET4_APP:4P - NY_APP (128.550)
+MET4_APP:4P - NY_APP (128.550)
+MGZ22_APP:4P - NY_APP (128.550)
+MGZ4_APP:4P - NY_APP (128.550)
+NFI22_APP:4P - NY_APP (128.550)
+NFI4_APP:4P - NY_APP (128.550)
+NOA22_APP:4P - NY_APP (128.550)
+NOA4_APP:4P - NY_APP (128.550)
+NWK_DEP:4P - NY_APP (128.550)
+NWK_DEP:4P - NY_APP (128.550)
+NWK_DEP:4P - NY_APP (128.550)
+NXX_TWR:Default
+NY_70A_FSS:Default
+NY_70B_FSS:Default
+NY_70C_FSS:Default
+NY_71A_FSS:Default
+NY_71B_FSS:Default
+NY_72_FSS:Default
+NY_81_CTR:Default
+NY_87_FSS:Default
+NY_88_FSS:Default
+NY_89_FSS:Default
+NY_90_FSS:Default
+NY_A11_CTR:Default
+NY_ARD_CTR:Default
+NY_ATL_CTR:Default
+NY_C50_1_CTR:Default
+NY_C50_2_CTR:Default
+NY_C50_3_CTR:Default
+NY_CCO_CTR:Default
+NY_D91_CTR:Default
+NY_HAR_CTR:Default
+NY_JBC_CTR:Default
+NY_KND_CTR:Default
+NY_KNDLO_CTR:Default
+NY_MAN_CTR:Default
+NY_MIP_CTR:Default
+NY_MIP_CTR:Default
+NY_ULW_CTR:Default
+PHL_DU_APP27:Default
+PHL_DU_APP27:Default
+PHL_DU_APP27:Default
+PHL_DU_APP27:Default
+PHL_F1_APP27:Default
+PHL_F1_APP27:Default
+PHL_F1_APP27:Default
+PHL_F1_APP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP27:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_N_DEP9:Default
+PHL_NA_APP27:Default
+PHL_NA_APP27:Default
+PHL_NA_APP27:Default
+PHL_NA_APP27:Default
+PHL_NA_APP27:Default
+PHL_NA_APP27:Default
+PHL_NA_APP27:Default
+PHL_NA_APP27:Default
+PHL_NA_APP27:Default
+PHL_NA_APP27:Default
+PHL_NH_DEP27:Default
+PHL_NH_DEP27:Default
+PHL_NH_DEP27:Default
+PHL_NH_DEP27:Default
+PHL_NH_DEP27:Default
+PHL_NH_DEP27:Default
+PHL_NH_DEP27:Default
+PHL_PT_APP27:Default
+PHL_PT_APP27:Default
+PHL_PT_APP27:Default
+PHL_PT_APP27:Default
+PHL_PT_APP27:Default
+PHL_PT_APP27:Default
+PHL_PT_APP27:Default
+PHL_PT_APP27:Default
+PHL_S_DEP27:Default
+PHL_S_DEP27:Default
+PHL_S_DEP27:Default
+PHL_S_DEP27:Default
+PHL_S_DEP27:Default
+PHL_S_DEP27:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_S_DEP9:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SA_APP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_SH_DEP27:Default
+PHL_TWR:Default
+PHL_TWR:Default
+PHL_WD_APP27:Default
+PHL_WD_APP27:Default
+PHL_WD_APP27:Default
+PHL_WD_APP27:Default
+PHL_WD_APP27:Default
+PHL_YD_APP27:Default
+PHL_YD_APP27:Default
+PHL_YD_APP27:Default
+PHL_YD_APP27:Default
+PHL_YD_APP27:Default
+PNE_TWR:Default
+RDG_APP:Default
+TTN_TWR:Default
+TXKF_TWR:Default
+WRI_APP:Default
+ZBO22_APP:4P - NY_APP (128.550)
+ZBO4_APP:4P - NY_APP (128.550)

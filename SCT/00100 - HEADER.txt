@@ -1,0 +1,10 @@
+; -------------------------
+; VATSIM CLEVELAND ARTCC
+; VRC SECTOR FILE
+; AIRAC CYCLE: 2111
+; LAST MODIFIED: NOV04 2021
+; FACILITY ENGINEER: Michael Smith
+; For use on VATSIM Network only. Use on POSCON prohibited.
+; Not for real world navigation
+; -------------------------
+;

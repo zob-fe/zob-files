@@ -1,0 +1,4 @@
+[SID]
+;*** FORMATTING REQUIREMENT ***
+; The "name" portion must be exactly 26 characters (including spaces).  The Lat coord starts at character #27.
+;***
