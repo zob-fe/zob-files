@@ -1,8 +1,8 @@
 ; -------------------------
 ; VATSIM CLEVELAND ARTCC
 ; POSITION FILE
-; AIRAC CYCLE: 2111
-; LAST MODIFIED: NOV04 2021
+; AIRAC CYCLE: 2201
+; LAST MODIFIED: JAN27 2022
 ; FACILITY ENGINEER: Michael Smith
 ; For use on VATSIM Network only. Use on POSCON prohibited.
 ; Not for real world navigation
@@ -31,54 +31,54 @@
 ;
 ; ZOB Enroute Positions
 ;
-Pandora Low Sector 02:Cleveland Center:128.625:02:C:CLE:CTR:PAN:02:5751:5777
-Marion Low Sector 03:Cleveland Center:135.100:03:C:CLE:CTR:MNN:03:5751:5777
-Mansfield Low Sector 04:Cleveland Center:134.900:04:C:CLE:CTR:MFD:04:5751:5777
-Briggs Low Sector 06:Cleveland Center:120.600:06:C:CLE:CTR:BSV:06:5751:5777
-Carleton Low Sector 08:Cleveland Center:127.900:08:C:CLE:CTR:CRL:08:5751:5777
-Lansing Low Sector 12:Cleveland Center:126.750:12:C:CLE:CTR:LAN:12:5751:5777
-Jackson Low Sector 14:Cleveland Center:120.450:14:C:CLE:CTR:JXN:14:5751:5777
-Litchfield Low Sector 15:Cleveland Center:134.650:15:C:CLE:CTR:LFD:15:5751:5777
-Flint Low Sector 16:Cleveland Center:127.700:16:C:CLE:CTR:FNT:16:5751:5777
-Dresden Low Sector 20:Cleveland Center:132.250:20:C:CLE:CTR:DRE:20:5751:5777
-Windsor Low Sector 21:Cleveland Center:132.450:21:C:CLE:CTR:YQG:21:5751:5777
-Rochester Low Sector 31:Cleveland Center:127.475:31:C:CLE:CTR:ROC:31:5751:5777
-Buffalo Low Sector 33:Cleveland Center:125.200:33:C:CLE:CTR:BUF:33:5751:5777
-Clarion Low Sector 50:Cleveland Center:126.725:50:C:CLE:CTR:CIP:50:5751:5777
-Indian Head Low Sector 53:Cleveland Center:124.400:53:C:CLE:CTR:IHD:53:5751:5777
-Morgantown Low Sector 55:Cleveland Center:126.950:55:C:CLE:CTR:MGW:55:5751:5777
-Dunkirk Low Sector 70:Cleveland Center:127.075:70:C:CLE:CTR:DKK:70:5751:5777
-Bradford Low Sector 73:Cleveland Center:124.325:73:C:CLE:CTR:BFD:73:5751:5777
-Youngstown Low Sector 75:Cleveland Center:120.775:75:C:CLE:CTR:YNG:75:5751:5777
+Pandora Low Sector 02:Cleveland Center:128.625:02:C:CLE:CTR:PAN:02:5701:5777
+Marion Low Sector 03:Cleveland Center:135.100:03:C:CLE:CTR:MNN:03:5701:5777
+Mansfield Low Sector 04:Cleveland Center:134.900:04:C:CLE:CTR:MFD:04:5701:5777
+Briggs Low Sector 06:Cleveland Center:120.600:06:C:CLE:CTR:BSV:06:5701:5777
+Carleton Low Sector 08:Cleveland Center:127.900:08:C:CLE:CTR:CRL:08:5701:5777
+Lansing Low Sector 12:Cleveland Center:126.750:12:C:CLE:CTR:LAN:12:5701:5777
+Jackson Low Sector 14:Cleveland Center:120.450:14:C:CLE:CTR:JXN:14:5701:5777
+Litchfield Low Sector 15:Cleveland Center:134.650:15:C:CLE:CTR:LFD:15:5701:5777
+Flint Low Sector 16:Cleveland Center:127.700:16:C:CLE:CTR:FNT:16:5701:5777
+Dresden Low Sector 20:Cleveland Center:132.250:20:C:CLE:CTR:DRE:20:5701:5777
+Windsor Low Sector 21:Cleveland Center:132.450:21:C:CLE:CTR:YQG:21:5701:5777
+Rochester Low Sector 31:Cleveland Center:127.475:31:C:CLE:CTR:ROC:31:5701:5777
+Buffalo Low Sector 33:Cleveland Center:125.200:33:C:CLE:CTR:BUF:33:5701:5777
+Clarion Low Sector 50:Cleveland Center:126.725:50:C:CLE:CTR:CIP:50:5701:5777
+Indian Head Low Sector 53:Cleveland Center:124.400:53:C:CLE:CTR:IHD:53:5701:5777
+Morgantown Low Sector 55:Cleveland Center:126.950:55:C:CLE:CTR:MGW:55:5701:5777
+Dunkirk Low Sector 70:Cleveland Center:127.075:70:C:CLE:CTR:DKK:70:5701:5777
+Bradford Low Sector 73:Cleveland Center:124.325:73:C:CLE:CTR:BFD:73:5701:5777
+Youngstown Low Sector 75:Cleveland Center:120.775:75:C:CLE:CTR:YNG:75:5701:5777
 ;
-Sandusky High Sector 07:Cleveland Center:127.675:07:C:CLE:CTR:SKY:07:5751:5777
-Peck High Sector 18:Cleveland Center:133.875:18:C:CLE:CTR:ECK:18:5751:5777
-Hudson High Sector 27:Cleveland Center:134.775:27:C:CLE:CTR:HUD:27:5751:5777
-Detroit High Sector 28:Cleveland Center:135.725:28:C:CLE:CTR:DET:28:5751:5777
-Dansville High Sector 36:Cleveland Center:118.625:36:C:CLE:CTR:DSV:36:5751:5777
-Geneseo High Sector 37:Cleveland Center:128.025:37:C:CLE:CTR:GEE:37:5751:5777
-Ravenna High Sector 48:Cleveland Center:119.875:48:C:CLE:CTR:RAV:48:5751:5777
-Brecksville High Sector 57:Cleveland Center:125.875:57:C:CLE:CTR:BKI:57:5751:5777
-Bellaire High Sector 66:Cleveland Center:125.425:66:C:CLE:CTR:AIR:66:5751:5777
-Imperial High Sector 67:Cleveland Center:132.125:67:C:CLE:CTR:IRL:67:5751:5777
-Warren High Sector 77:Cleveland Center:134.125:77:C:CLE:CTR:WRN:77:5751:5777
+Sandusky High Sector 07:Cleveland Center:127.675:07:C:CLE:CTR:SKY:07:5701:5777
+Peck High Sector 18:Cleveland Center:133.875:18:C:CLE:CTR:ECK:18:5701:5777
+Hudson High Sector 27:Cleveland Center:134.775:27:C:CLE:CTR:HUD:27:5701:5777
+Detroit High Sector 28:Cleveland Center:135.725:28:C:CLE:CTR:DET:28:5701:5777
+Dansville High Sector 36:Cleveland Center:118.625:36:C:CLE:CTR:DSV:36:5701:5777
+Geneseo High Sector 37:Cleveland Center:128.025:37:C:CLE:CTR:GEE:37:5701:5777
+Ravenna High Sector 48:Cleveland Center:119.875:48:C:CLE:CTR:RAV:48:5701:5777
+Brecksville High Sector 57:Cleveland Center:125.875:57:C:CLE:CTR:BKI:57:5701:5777
+Bellaire High Sector 66:Cleveland Center:125.425:66:C:CLE:CTR:AIR:66:5701:5777
+Imperial High Sector 67:Cleveland Center:132.125:67:C:CLE:CTR:IRL:67:5701:5777
+Warren High Sector 77:Cleveland Center:134.125:77:C:CLE:CTR:WRN:77:5701:5777
 ;
-Gamble Super High Sector 19:Cleveland Center:126.525:19:C:CLE:CTR:GAM:19:5751:5777
-Lake Super High Sector 26:Cleveland Center:120.075:26:C:CLE:CTR:LAK:26:5751:5777
-Wayne Super High Sector 29:Cleveland Center:133.525:29:C:CLE:CTR:WAY:29:5751:5777
-Niagara Super High Sector 38:Cleveland Center:120.625:38:C:CLE:CTR:IAG:38:5751:5777
-Steuben Super High Sector 39:Cleveland Center:119.375:39:C:CLE:CTR:STU:39:5751:5777
-Bluffton Super High Sector 47:Cleveland Center:119.325:47:C:CLE:CTR:BFT:47:5751:5777
-Lorain Super High Sector 49:Cleveland Center:133.375:49:C:CLE:CTR:LOR:49:5751:5777
-Franklin Super High Sector 59:Cleveland Center:119.725:59:C:CLE:CTR:FKL:59:5751:5777
-Allegheny Super High Sector 68:Cleveland Center:133.075:68:C:CLE:CTR:AGC:68:5751:5777
-Clarksburg Super High Sector 69:Cleveland Center:135.175:69:C:CLE:CTR:CKB:69:5751:5777
+Gamble Super High Sector 19:Cleveland Center:126.525:19:C:CLE:CTR:GAM:19:5701:5777
+Lake Super High Sector 26:Cleveland Center:120.075:26:C:CLE:CTR:LAK:26:5701:5777
+Wayne Super High Sector 29:Cleveland Center:133.525:29:C:CLE:CTR:WAY:29:5701:5777
+Niagara Super High Sector 38:Cleveland Center:120.625:38:C:CLE:CTR:IAG:38:5701:5777
+Steuben Super High Sector 39:Cleveland Center:119.375:39:C:CLE:CTR:STU:39:5701:5777
+Bluffton Super High Sector 47:Cleveland Center:119.325:47:C:CLE:CTR:BFT:47:5701:5777
+Lorain Super High Sector 49:Cleveland Center:133.375:49:C:CLE:CTR:LOR:49:5701:5777
+Franklin Super High Sector 59:Cleveland Center:119.725:59:C:CLE:CTR:FKL:59:5701:5777
+Allegheny Super High Sector 68:Cleveland Center:133.075:68:C:CLE:CTR:AGC:68:5701:5777
+Clarksburg Super High Sector 69:Cleveland Center:135.175:69:C:CLE:CTR:CKB:69:5701:5777
 ;
-Geauga Ultra High Sector 45:Cleveland Center:120.325:45:C:CLE:CTR:GEA:45:5751:5777
-Marblehead Ultra High Sector 46:Cleveland Center:135.375:46:C:CLE:CTR:MBL:46:5751:5777
-Palmer Ultra High Sector 58:Cleveland Center:121.075:58:C:CLE:CTR:PAR:58:5751:5777
-Keystone Ultra High Sector 64:Cleveland Center:134.475:64:C:CLE:CTR:KEY:64:5751:5777
-Jamestown Ultra High Sector 79:Cleveland Center:132.925:79:C:CLE:CTR:JHW:79:5751:5777
+Geauga Ultra High Sector 45:Cleveland Center:120.325:45:C:CLE:CTR:GEA:45:5701:5777
+Marblehead Ultra High Sector 46:Cleveland Center:135.375:46:C:CLE:CTR:MBL:46:5701:5777
+Palmer Ultra High Sector 58:Cleveland Center:121.075:58:C:CLE:CTR:PAR:58:5701:5777
+Keystone Ultra High Sector 64:Cleveland Center:134.475:64:C:CLE:CTR:KEY:64:5701:5777
+Jamestown Ultra High Sector 79:Cleveland Center:132.925:79:C:CLE:CTR:JHW:79:5701:5777
 ;
 ; D21/DTW Positions
 Ann Arbor Ground:Ann Arbor Ground:121.600:5D:-:ARB:GND:ARB:GND:5101:5177
